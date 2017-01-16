@@ -4,5 +4,8 @@ HTTPProxy IP:PORT
 HTTPSProxy IP:PORT
 
 ## Behind Firewall with only 80 and 443 ports opened
-FascistFirewall 1
-FirewallPorts 80,443
+
+# FascistFirewall 1
+# FirewallPorts 80,443
+
+ReachableAddresses *:80,*:443
