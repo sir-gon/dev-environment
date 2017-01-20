@@ -1,13 +1,6 @@
 #!/bin/sh
-
-#
-# Use wordpress-cli to update core, plugins and themes in 
-# all <dir>/html directories under current directory
-#
  
-#!/bin/sh
- 
-for D in *; do
+ for D in *; do
   if [ -d "${D}" ]; then
     FULLPATH=$(realpath ${D}/html)  &> /dev/null
     
@@ -24,6 +17,9 @@ for D in *; do
       echo "Check plugin updates for: ${D}"
 	  wp --allow-root --path=${FULLPATH} plugin update --all
 
+      echo "Check TRANSLATION updates"
+          wp --allow-root --path=${FULLPATH} core language update
+	  
       echo "Check theme updates for: ${D}"
 	  wp --allow-root --path=${FULLPATH} theme update --all
 
