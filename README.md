@@ -61,7 +61,7 @@ chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-# ANDROID DEVELOPMENT 
+# ANDROID Development 
 
 ```
 brew cask install caskroom/versions/java8;
