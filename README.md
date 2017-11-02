@@ -39,7 +39,7 @@ brew install watchman
 npm install -g react-native-cli
 ```
 
-# PHP Development
+# PHP Development
 
 ```
 # COMPOSER
