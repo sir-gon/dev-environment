@@ -9,7 +9,7 @@ brew install curl dnsmasq fish htop-osx pv vim wget
 ```
 brew tap caskroom/cask
 
-brew cask install calibre cyberduck fastlane firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc
+brew cask install calibre cyberduck fastlane firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc
 ```
 
 # Terminal
