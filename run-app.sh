@@ -2,14 +2,14 @@
 
 ##
 ## RUN pm2 app based on ecosystem.json file
-##
+## 
 ## This script ensures that the required ports are free before running the application. In addition, it removes the application from the list of pm2 and reinstalls it, so that any changes in the ecosystem.json itself can be refreshed.
 ##
 ## Usage: /Users/gon/devel/COCHA/run-app.sh [-c <0|1>] [-e </path/to/ecosystem.json>]  
 ##
 ## -c:	when 1, open directory with code (vscode)
 ## -e: path to ecosystem.json file
-##
+## 
 
 usage() { echo "Usage: $0 [-c <0|1>] [-e </path/to/ecosystem.json>]" 1>&2; exit 1; }
 
@@ -59,7 +59,7 @@ echo "LIVERELOAD: " ${LIVERELOAD}
 
 pm2 delete ${ECOSYSTEM};
 
-if [ ! -z "$PORT" ];
+if [ ! -z "$PORT" ] && [[ $PORT =~ ^[\-0-9]+$ ]] && (( $PORT > 0));
 then
     PID_APP=`lsof -i :${PORT} |tail -1 | awk '{print $2}'`
 	echo "PID APP resolved for PORT ${PORT}: " ${PID_APP}
@@ -71,7 +71,7 @@ then
     kill -9 ${PID_APP}
 fi
 
-if [ ! -z "$LIVERELOAD" ];
+if [ ! -z "$LIVERELOAD" ] && [[ $LIVERELOAD =~ ^[\-0-9]+$ ]] && (( $LIVERELOAD > 0));
 then
 	PID_LIVERELOAD=`lsof -i :${LIVERELOAD} |tail -1 | awk '{print $2}'`
 	echo "PID LIVERELOAD resolved for PORT ${LIVERELOAD}: " ${PID_LIVERELOAD}
