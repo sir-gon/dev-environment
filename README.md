@@ -1,15 +1,31 @@
-# Basic cli stack for MacOS
+# Install Basic cli stack for MacOS
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install curl dnsmasq fish htop-osx pv vim wget
 ```
 
-# Basic MacOS Applications
+# Install Basic MacOS Applications
 ```
 brew tap caskroom/cask
 
-brew cask install calibre cyberduck fastlane firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc
+brew cask install android-file-transfer calibre cyberduck fastlane fastonosql firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code visual-studio-code-insiders vlc
+```
+
+## For upgrading brew cask applications
+
+### Install brew-cask-upgrade
+
+https://github.com/buo/homebrew-cask-upgrade
+
+```
+brew tap buo/cask-upgrade
+```
+
+### Upgrade brew cask applications
+
+```
+brew cu -a -y
 ```
 
 # Terminal
@@ -73,5 +89,8 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 
 ```
 brew cask install caskroom/versions/java8;
-brew cask install android-studio android-file-transfer android-sdk android-ndk
+brew cask install android-studio android-sdk android-ndk
+
+# accept all licences
+yes | sdkmanager --licenses
 ```
