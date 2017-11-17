@@ -12,6 +12,14 @@ brew tap caskroom/cask
 brew cask install android-file-transfer calibre cyberduck fastlane fastonosql firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code visual-studio-code-insiders vlc
 ```
 
+# Install typography for coding
+
+https://github.com/tonsky/FiraCode/
+
+```
+brew cask install font-fira-code font-hack
+```
+
 ## For upgrading brew cask applications
 
 ### Install brew-cask-upgrade
