@@ -2,7 +2,7 @@
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install curl dnsmasq fish htop-osx pv vim wget
+brew install curl dnsmasq fish htop-osx pv tldr vim wget
 ```
 
 # Install Basic MacOS Applications
