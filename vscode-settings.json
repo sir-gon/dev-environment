@@ -1,0 +1,31 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.iconTheme": "material-icon-theme", 
+    "editor.minimap.enabled": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.wordWrap": "on",
+    "typescript.check.npmIsInstalled": false,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "'Fira Code', Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,    
+    "editor.fontSize": 14,
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Light"
+    },
+    "editor.renderWhitespace": "all",
+
+    // Enable Auto convert on save
+    "markdown-pdf.convertOnSave": false,
+
+    // Output format: pdf, html, png, jpeg
+    //"markdown-pdf.type": "pdf"
+    "markdown-pdf.type": "html",
+    "files.associations": {
+        "*.shlib": "shellscript"
+    }
+    // Page Option. Page size: A3, A4, A5, Legal, Letter, Tabloid
+    //"markdown-pdf.format": "Letter"
+}
