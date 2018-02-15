@@ -1,7 +1,7 @@
 # Install Basic cli stack for Windows 
 
 ```
-choco install -y curl git rsync yarn
+choco install -y curl git rsync vim-x64 yarn
 ```
 
 # Install NPM global packages 
@@ -13,10 +13,17 @@ yarn global add newman dotenv-cli
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip ccleaner cmder cyberduck docker-for-windows firefox opera postman rambox robo3t teamviewer virtualbox vivaldi wireshark
+choco install -y 7zip autohotkey dbeaver ccleaner cmder cyberduck docker-for-windows firefox opera postman rambox robo3t teamviewer virtualbox vivaldi wireshark
 
 choco install -y visualstudiocode-insiders --pre
 ```
+
+# Install Fonts
+
+```
+choco install -y firacode
+```
+
 
 # Visual Studio Code (extensions)
 
