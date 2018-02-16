@@ -13,7 +13,7 @@ yarn global add newman dotenv-cli
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip autohotkey dbeaver ccleaner cmder cyberduck docker-for-windows firefox opera postman rambox robo3t teamviewer virtualbox vivaldi wireshark
+choco install -y 7zip autohotkey dbeaver ccleaner cmder coretemp cyberduck docker-for-windows firefox opera postman rambox robo3t teamviewer virtualbox vivaldi wireshark
 
 choco install -y visualstudiocode-insiders --pre
 ```
