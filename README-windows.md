@@ -61,7 +61,8 @@ https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/
 # Visual Studio Code (extensions)
 
 ```
-code-insiders --install-extension 2gua.rainbow-brackets EditorConfig.EditorConfig
+code-insiders --install-extension 2gua.rainbow-brackets
+code-insiders --install-extension EditorConfig.EditorConfig
 code-insiders --install-extension Equinusocio.vsc-material-theme
 code-insiders --install-extension PKief.material-icon-theme
 code-insiders --install-extension PeterJausovec.vscode-docker
