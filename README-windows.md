@@ -25,6 +25,33 @@ choco install -y firacode
 ```
 
 
+# Install Ubuntu linux subsystem packages 
+
+```
+sudo apt update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+
+sudo apt update
+sudo apt upgrade -y
+ 
+sudo apt install fish htop zsh
+```
+
+# Install Docker client in Ubuntu linux subsystem packages 
+
+```
+sudo apt update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+sudo apt update
+sudo apt install -y docker-ce
+```
+
+
+
 # Visual Studio Code (extensions)
 
 ```
