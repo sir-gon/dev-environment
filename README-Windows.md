@@ -21,7 +21,7 @@ choco install -y visualstudiocode-insiders --pre
 # Install Development Tools
 
 ```
-choco install -y androidstudio dbeaver ccleaner cmder docker-for-windows postman python robo3t virtualbox wireshark
+choco install -y android-sdk androidstudio dbeaver ccleaner cmder docker-for-windows jdk8 postman python robo3t virtualbox wireshark
 
 choco install -y visualstudiocode-insiders --pre
 ```
