@@ -6,7 +6,7 @@ sudo apt install -y curl fish git htop pv vim
 # Install Basic Ubuntu Applications
 ```
 
-sudo apt install -y guake 
+sudo apt install -y guake vim-gtk3
 
 # Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
