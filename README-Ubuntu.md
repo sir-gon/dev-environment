@@ -29,6 +29,12 @@ sudo add-apt-repository deb [arch=amd64] https://download.docker.com/linux/ubunt
 sudo apt update
 sudo apt install -y docker-ce
 
+# NodeJS
+
+https://nodejs.org/es/download/package-manager/#distribuciones-de-linux-basadas-en-debian-y-ubuntu
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
 ```
 
 # Install typography for coding
