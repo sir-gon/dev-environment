@@ -35,6 +35,12 @@ https://nodejs.org/es/download/package-manager/#distribuciones-de-linux-basadas-
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+# YARN
+
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt update
+sudo apt install -y yarn
+
 ```
 
 # Install typography for coding
