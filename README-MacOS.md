@@ -48,6 +48,12 @@ chsh -s $(which fish)
 brew install tor connect
 ```
 
+# NodeJS development
+
+```
+sudo npm install -g concurrently cross-env eslint newman serverless   
+```
+
 # Visual Studio Code (extensions)
 
 ```
@@ -56,9 +62,9 @@ code-insiders --install-extension EditorConfig.EditorConfig
 code-insiders --install-extension Equinusocio.vsc-material-theme
 code-insiders --install-extension PKief.material-icon-theme
 code-insiders --install-extension PeterJausovec.vscode-docker
-#code-insiders --install-extension WallabyJs.quokka-vscode
+# code-insiders --install-extension WallabyJs.quokka-vscode
 code-insiders --install-extension Zim.vsc-docker
-code-insiders --install-extension dbaeumer.jshint
+# code-insiders --install-extension dbaeumer.jshint
 code-insiders --install-extension dbaeumer.vscode-eslint
 code-insiders --install-extension donjayamanne.githistory
 code-insiders --install-extension eamodio.gitlens
