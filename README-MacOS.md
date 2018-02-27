@@ -48,11 +48,6 @@ chsh -s $(which fish)
 brew install tor connect
 ```
 
-# NodeJS development
-
-```
-sudo npm install -g concurrently cross-env eslint newman serverless   
-```
 
 # Visual Studio Code (extensions)
 
@@ -78,7 +73,14 @@ code-insiders --install-extension yzane.markdown-pdf
 code-insiders --install-extension yzhang.markdown-all-in-one
 ```
 
-# React Native
+
+# NodeJS development
+
+```
+sudo npm install -g concurrently cross-env eslint newman serverless   
+```
+
+# React Native development
 
 ```
 brew install node
@@ -88,6 +90,7 @@ npm install -g react-native-cli
 ```
 
 # PHP Development
+
 ## COMPOSER
 
 ```
