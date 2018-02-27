@@ -80,7 +80,7 @@ code-insiders --install-extension PKief.material-icon-theme
 code-insiders --install-extension PeterJausovec.vscode-docker
 #code-insiders --install-extension WallabyJs.quokka-vscode
 code-insiders --install-extension Zim.vsc-docker
-code-insiders --install-extension dbaeumer.jshint
+# code-insiders --install-extension dbaeumer.jshint
 code-insiders --install-extension dbaeumer.vscode-eslint
 code-insiders --install-extension donjayamanne.githistory
 code-insiders --install-extension eamodio.gitlens
@@ -102,7 +102,7 @@ code-insiders --install-extension yzhang.markdown-all-in-one
 # NodeJS development
 
 ```
-sudo npm install -g concurrently cross-env eslint jshint newman serverless   
+sudo npm install -g concurrently cross-env eslint newman serverless   
 ```
 
 # PHP Development
