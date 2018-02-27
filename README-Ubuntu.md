@@ -97,6 +97,12 @@ code-insiders --install-extension yzhang.markdown-all-in-one
 ```
 ```
 
+# NodeJS development
+
+```
+sudo npm install -g concurrently cross-env eslint jshint newman serverless   
+```
+
 # PHP Development
 ## COMPOSER
 
