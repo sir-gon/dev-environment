@@ -58,14 +58,16 @@ sudo apt install -y yarn
 https://github.com/tonsky/FiraCode/
 
 ```
+sudo apt install -y fonts-firacode 
 ```
 
 
 # Terminal
 ```
 curl -L http://get.oh-my.fish | fish
-omf install zish
 chsh -s $(which fish)
+fish
+omf install zish
 ```
 
 # Visual Studio Code (extensions)
@@ -135,5 +137,10 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 
 # ANDROID Development 
 
+https://mfonville.github.io/android-studio/
+
 ```
+sudo apt-add-repository ppa:maarten-fonville/android-studio 
+sudo apt-get update
+sudo apt-get install android-studio
 ```
