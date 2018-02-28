@@ -88,6 +88,7 @@ code-insiders --install-extension eriklynd.json-tools
 code-insiders --install-extension felixfbecker.php-debug
 code-insiders --install-extension hbenl.vscode-firefox-debug
 code-insiders --install-extension lukehoban.Go
+code-insiders --install-extension mikestead.dotenv
 code-insiders --install-extension ms-python.python
 code-insiders --install-extension msjsdiag.debugger-for-chrome
 code-insiders --install-extension yzane.markdown-pdf
