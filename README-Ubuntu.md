@@ -15,7 +15,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 
 sudo apt update
 
-sudo apt install code-insiders
+sudo apt install -y code-insiders
 
 # Sublime Text 3
 
@@ -32,7 +32,7 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 
 # Docker
 
-sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
