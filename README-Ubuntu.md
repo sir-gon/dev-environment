@@ -41,7 +41,8 @@ sudo apt install -y docker-ce
 
 # NodeJS
 
-https://nodejs.org/es/download/package-manager/#distribuciones-de-linux-basadas-en-debian-y-ubuntu
+### https://nodejs.org/es/download/package-manager/#distribuciones-de-linux-basadas-en-debian-y-ubuntu
+
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt install -y nodejs
 
