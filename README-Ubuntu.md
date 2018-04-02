@@ -115,6 +115,11 @@ sudo npm install -g concurrently cross-env eslint newman serverless
 ```
 
 # PHP Development
+
+```
+apt install -y php7.1-cli
+```
+
 ## COMPOSER
 
 ```
@@ -126,13 +131,10 @@ wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79
 ```
 # DRUSH
 
-php -r "readfile('https://s3.amazonaws.com/files.drush.org/drush.phar');" > drush
-php drush core-status
-chmod +x drush
-sudo mv drush /usr/local/bin
+wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
+chmod +x drush.phar
+sudo mv drush.phar /usr/local/bin/drush
 
-# Optional. Enrich the bash startup file with completion and aliases.
-drush init
 ```
 
 ## Wordpress
