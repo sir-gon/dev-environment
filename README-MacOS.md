@@ -73,7 +73,11 @@ code-insiders --install-extension msjsdiag.debugger-for-chrome
 code-insiders --install-extension yzane.markdown-pdf
 code-insiders --install-extension yzhang.markdown-all-in-one
 ```
+# Docker
 
+```
+brew cask install docker
+```
 
 # NodeJS development
 
