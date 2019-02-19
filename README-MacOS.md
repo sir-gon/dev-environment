@@ -9,7 +9,7 @@ brew install curl dnsmasq fish htop-osx pv tldr vim wget
 ```
 brew tap caskroom/cask
 
-brew cask install android-file-transfer betterzip calibre cyberduck fastlane fastonosql firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code visual-studio-code-insiders vlc vivaldi wireshark
+brew cask install android-file-transfer calibre cyberduck fastlane firefox google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
 ```
 
 # Install typography for coding
