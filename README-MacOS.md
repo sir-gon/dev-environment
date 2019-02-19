@@ -2,7 +2,7 @@
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install curl dnsmasq fish htop-osx pv tldr vim wget
+brew install coreutils curl dnsmasq fish htop-osx pv tldr vim watch wget
 ```
 
 # Install Basic MacOS Applications
@@ -17,7 +17,7 @@ brew cask install android-file-transfer calibre cyberduck fastlane firefox googl
 https://github.com/tonsky/FiraCode/
 
 ```
-brew cask install font-fira-code font-hack
+brew cask install homebrew/cask-fonts/font-droidsansmono-nerd-font homebrew/cask-fonts/font-droidsansmono-nerd-font-mono homebrew/cask-fonts/font-hack-nerd-font homebrew/cask-fonts/font-hack-nerd-font-mono
 ```
 
 ## For upgrading brew cask applications
@@ -82,14 +82,17 @@ brew cask install docker
 # NodeJS development
 
 ```
+brew install node
+```
+
+```
 sudo npm install -g concurrently cross-env eslint newman serverless   
 ```
 
 # React Native development
 
 ```
-brew install node
-brew install watchman
+brew install node watchman
 
 npm install -g react-native-cli
 ```
