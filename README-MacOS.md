@@ -4,12 +4,16 @@
 
 brew install coreutils curl dnsmasq fish htop-osx pv tldr vim watch wget
 ```
+# Install Ext4 (linux) support
+
+brew cask install osxfuse
+brew install ext4fuse
 
 # Install Basic MacOS Applications
 ```
 brew tap caskroom/cask
 
-brew cask install android-file-transfer bettertouchtool calibre cyberduck fastlane firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
+brew cask install android-file-transfer bettertouchtool calibre cyberduck fastlane firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync smartgit soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
 ```
 
 # Install typography for coding
