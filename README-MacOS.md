@@ -13,7 +13,7 @@ brew install ext4fuse
 ```
 brew tap caskroom/cask
 
-brew cask install android-file-transfer bettertouchtool calibre cyberduck fastlane firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync smartgit soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
+brew cask install android-file-transfer bettertouchtool calibre cyberduck dbeaver-community dropbox fastlane firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync robo-3t smartgit soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
 ```
 
 # Install typography for coding
