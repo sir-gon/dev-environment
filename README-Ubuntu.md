@@ -78,6 +78,20 @@ fish
 omf install zish
 ```
 
+## Install Hyper as terminal emulator
+
+Download from https://hyper.is/#installation 
+
+Then install following themes + plugins:
+
+```
+hyper i hyper-solarized-dark2
+hyper i hypercwd
+hyper i hyper-dark-scrollbar
+hyper i hyper-search
+hyper i hyper-highlight-active-pane
+```
+
 # Visual Studio Code (extensions)
 
 ```
