@@ -90,6 +90,9 @@ hyper i hypercwd
 hyper i hyper-dark-scrollbar
 hyper i hyper-search
 hyper i hyper-highlight-active-pane
+hyper i hyperborde
+hyper i hyperlinks
+hyper i hyper-savetext
 ```
 
 # Visual Studio Code (extensions)
