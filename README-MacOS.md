@@ -46,6 +46,8 @@ brew cu -a -y
 ```
 curl -L http://get.oh-my.fish | fish
 omf install zish
+
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 chsh -s $(which fish)
 ```
 
