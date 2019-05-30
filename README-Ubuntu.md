@@ -138,7 +138,7 @@ code --install-extension yzhang.markdown-all-in-one
 # NodeJS development
 
 ```
-sudo npm install -g concurrently cross-env eslint newman serverless   
+sudo npm install -g concurrently cross-env dotenv-cli eslint newman serverless   
 ```
 
 # PHP Development
