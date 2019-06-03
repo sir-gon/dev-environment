@@ -80,6 +80,7 @@ code --install-extension ms-python.python
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension iciclesoft.workspacesort
 ```
 
 # Docker
