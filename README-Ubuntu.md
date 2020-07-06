@@ -1,10 +1,9 @@
-# Install Basic cli stack for Ubuntu
-```
-sudo apt install -y curl fish git htop net-tools nmap pv vim
-```
-
 # Install Basic Ubuntu Applications
+
 ```
+# Install Basic cli stack for Ubuntu
+
+sudo apt install -y curl fish git htop net-tools nmap pv vim
 
 sudo apt install -y guake vim-gtk3
 
