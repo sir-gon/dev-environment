@@ -15,7 +15,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 
 sudo apt update
 
-sudo apt install -y code-insiders
+sudo apt install -y code
 
 # Sublime Text 3
 
