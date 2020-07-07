@@ -28,7 +28,7 @@ sudo apt install -y sublime-text
 
 # Google Chrome
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-sudo add-apt-repository "deb http://dl.google.com/linux/deb/ stable main"
+sudo add-apt-repository "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
 sudo apt-get update
 sudo apt-get install -y google-chrome-stable
 
