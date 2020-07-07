@@ -41,6 +41,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt update
 sudo apt install -y docker-ce
+sudo usermod -aG docker $USER
 
 # NodeJS
 
