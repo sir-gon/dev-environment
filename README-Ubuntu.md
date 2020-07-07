@@ -60,6 +60,20 @@ sudo apt install -y yarn
 
 ```
 
+
+# Install snap apps
+
+```
+sudo snap install insomnia 
+sudo snap install postman
+sudo snap install rambox
+sudo snap install dbeaver-ce
+sudo snap install code --classic
+sudo snap install sublime-text --classic
+sudo snap install skype --classic
+```
+
+
 # Install typography for coding
 
 https://github.com/tonsky/FiraCode/
@@ -77,6 +91,8 @@ fish
 omf install zish
 ```
 
+
+
 ## Install Hyper as terminal emulator
 
 Download from https://hyper.is/#installation 
@@ -92,18 +108,6 @@ hyper i hyper-highlight-active-pane
 hyper i hyperborde
 hyper i hyperlinks
 hyper i hyper-savetext
-```
-
-Install snap apps
-
-```
-sudo snap install insomnia 
-sudo snap install postman
-sudo snap install rambox
-sudo snap install dbeaver-ce
-sudo snap install code --classic
-sudo snap install sublime-text --classic
-sudo snap install skype --classic
 ```
 
 # Visual Studio Code (extensions)
