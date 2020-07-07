@@ -97,7 +97,10 @@ hyper i hyper-savetext
 Install snap apps
 
 ```
-sudo snap install insomnia postman rambox robo3t-snap
+sudo snap install insomnia 
+sudo snap install postman
+sudo snap install rambox
+sudo snap install dbeaver-ce
 sudo snap install code --classic
 sudo snap install sublime-text --classic
 sudo snap install skype --classic
