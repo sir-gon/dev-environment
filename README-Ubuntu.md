@@ -1,4 +1,4 @@
-# Install Basic Ubuntu Applications
+# Install Basic Ubuntu CLI Applications
 
 ```
 # Install Basic cli stack for Ubuntu
@@ -7,6 +7,31 @@ sudo apt install -y curl git htop net-tools nmap pv vim
 
 sudo apt install -y guake vim-gtk3
 
+```
+
+# Terminal
+
+https://ohmyz.sh/#install
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+chsh -s $(which zsh)
+
+
+```
+
+# Install typography for coding
+
+https://github.com/tonsky/FiraCode/
+
+```
+sudo apt install -y fonts-firacode 
+```
+
+# Install Basic Ubuntu GUI Applications
+
+```
 # Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -75,26 +100,6 @@ sudo snap install skype --classic
 ```
 
 
-# Install typography for coding
-
-https://github.com/tonsky/FiraCode/
-
-```
-sudo apt install -y fonts-firacode 
-```
-
-
-# Terminal
-```
-# https://ohmyz.sh/#install
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-chsh -s $(which zsh)
-
-```
-
-
-
 ## Install Hyper as terminal emulator
 
 Download from https://hyper.is/#installation 
@@ -115,7 +120,6 @@ hyper i hyper-savetext
 # Visual Studio Code (extensions)
 
 ```
-
 code --install-extension 2gua.rainbow-brackets 
 code --install-extension EditorConfig.EditorConfig
 code --install-extension Equinusocio.vsc-material-theme
