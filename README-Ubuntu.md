@@ -3,7 +3,7 @@
 ```
 # Install Basic cli stack for Ubuntu
 
-sudo apt install -y curl fish git htop net-tools nmap pv vim
+sudo apt install -y curl git htop net-tools nmap pv vim
 
 sudo apt install -y guake vim-gtk3
 
@@ -86,10 +86,11 @@ sudo apt install -y fonts-firacode
 
 # Terminal
 ```
-curl -L http://get.oh-my.fish | fish
-chsh -s $(which fish)
-fish
-omf install zish
+# https://ohmyz.sh/#install
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+chsh -s $(which zsh)
+
 ```
 
 
