@@ -3,7 +3,7 @@
 ```
 # Install Basic cli stack for Ubuntu
 
-sudo apt install -y curl git htop net-tools nmap pv vim
+sudo apt install -y curl git htop net-tools nmap pv vim graphviz
 
 sudo apt install -y guake vim-gtk3
 
@@ -140,6 +140,11 @@ code --install-extension ms-python.python
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
+
+code --install-extension efanzh.graphviz-preview
+code --install-extension stephanvs.dot
+
+
 ```
 
 # React Native
