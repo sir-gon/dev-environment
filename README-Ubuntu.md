@@ -123,13 +123,17 @@ hyper i hyper-savetext
 
 # GNOME Shell
 
-https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+- https://extensions.gnome.org/extension/2872/activities-icons/
+- https://extensions.gnome.org/extension/6/applications-menu/
+- https://extensions.gnome.org/extension/517/caffeine/
+- ~~https://extensions.gnome.org/extension/1160/dash-to-panel/~~
+- https://extensions.gnome.org/extension/1465/desktop-icons/
+- https://extensions.gnome.org/extension/1065/docker-status/
+- https://extensions.gnome.org/extension/744/hide-activities-button/
+- https://extensions.gnome.org/extension/750/openweather/
+- https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+- https://extensions.gnome.org/extension/19/user-themes/
 
-
-# React Native
-
-```
-```
 
 # NodeJS development
 
