@@ -86,7 +86,6 @@ sudo apt install -y yarn
 
 ```
 
-
 # Install snap apps
 
 ```
@@ -97,24 +96,6 @@ sudo snap install dbeaver-ce
 sudo snap install code --classic
 sudo snap install sublime-text --classic
 sudo snap install skype --classic
-```
-
-
-## Install Hyper as terminal emulator
-
-Download from https://hyper.is/#installation 
-
-Then install following themes + plugins:
-
-```
-hyper i hyper-solarized-dark2
-hyper i hypercwd
-hyper i hyper-dark-scrollbar
-hyper i hyper-search
-hyper i hyper-highlight-active-pane
-hyper i hyperborde
-hyper i hyperlinks
-hyper i hyper-savetext
 ```
 
 # Visual Studio Code (extensions)
@@ -137,9 +118,8 @@ hyper i hyper-savetext
 
 # NodeJS development
 
-```
-sudo npm install -g concurrently cross-env dotenv-cli eslint newman serverless   
-```
+[See NodeJS Developmen](README-NodeJS)
+
 
 # PHP Development
 
