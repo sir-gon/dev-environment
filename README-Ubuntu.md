@@ -20,6 +20,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 chsh -s $(which zsh)
 
+zsh
+
+omz  theme use gnzh
 
 ```
 
