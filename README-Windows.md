@@ -20,7 +20,8 @@ choco install -y spotify vlc
 ```
 # FAVORITE IDE
 
-choco install -y visualstudiocode
+choco install -y visualstudiocode 
+choco install -y smartgit
 
 # PROGRAMMING LANGUAGES & FRAMEWORKS
 
@@ -48,7 +49,7 @@ choco install -y wsl2 docker-for-windows
 
 # API DEVELOPMENT
 
-choco install -y insomnia insomnia-designer postman
+choco install -y insomnia-rest-api-client insomnia-designer postman
 
 # SO Tools
 
