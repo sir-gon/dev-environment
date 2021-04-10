@@ -44,13 +44,19 @@ Or a improvised automation:
 
 ```
 # SMARTGIT
-curl https://www.syntevo.com/downloads/smartgit/smartgit-20_2_4.deb -o smartgit-20_2_4.deb&& sudo dpkg -i smartgit-20_2_4.deb && rm smartgit-20_2_4.deb
+curl https://www.syntevo.com/downloads/smartgit/smartgit-20_2_4.deb -o smartgit-20_2_4.deb \
+  && sudo dpkg -i smartgit-20_2_4.deb \
+  && rm smartgit-20_2_4.deb
 
 # TEAMVIEWER
-curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o teamviewer_amd64.deb && sudo dpkg -i teamviewer_amd64.deb && rm teamviewer_amd64.deb
+curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o teamviewer_amd64.deb \
+  && sudo dpkg -i teamviewer_amd64.deb \
+  && rm teamviewer_amd64.deb
 
 # MONGODB-COMPASS
-curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o mongodb-compass_1.26.1_amd64.deb && sudo dpkg -i mongodb-compass_1.26.1_amd64.deb && rm mongodb-compass_1.26.1_amd64.deb
+curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o mongodb-compass_1.26.1_amd64.deb \
+  && sudo dpkg -i mongodb-compass_1.26.1_amd64.deb \
+  && rm mongodb-compass_1.26.1_amd64.deb
 ``` 
 
 # Install Basic Ubuntu GUI Applications
@@ -135,6 +141,27 @@ sudo snap install postman
 # NodeJS development
 
 [See NodeJS Developmen](README-NodeJS)
+
+# DevOps tools / Cloud Development
+
+```
+
+# Kubernetes
+
+sudo snap install kubernetes
+sudo snap install helm
+
+# AWS
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
+  && unzip awscliv2.zip \
+  && sudo ./aws/install
+  && rm awscliv2.zip
+
+# Google Cloud Platform
+
+sudo snap install 
+```
 
 # PHP development
 
