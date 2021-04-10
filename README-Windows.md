@@ -11,6 +11,8 @@ choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechro
 
 choco install -y skype zoom
 
+choco install -y spotify vlc
+
 ```
 
 # Install Development Tools
@@ -26,17 +28,31 @@ choco install -y python
 
 choco install -y nodejs-lts
 
+choco install -y jdk8
+
 # ANDROID MOBILE DEVELOPMENT
 
 choco install -y android-sdk androidstudio 
 
 # DATABASES
 
-choco install -y dbeaver cmder docker-for-windows jdk8 mongodb-compass 
+choco install -y dbeaver mongodb-compass 
+
+# CONTAINERS & Windows Subsystem for Linux
+
+choco install -y wsl2 docker-for-windows
+
+# Windows Subsystem for Linux Distros
+
+
 
 # API DEVELOPMENT
 
 choco install -y insomnia insomnia-designer postman
+
+# SO Tools
+
+choco install -y unetbootin
 
 ```
 
