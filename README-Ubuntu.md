@@ -56,17 +56,6 @@ curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o m
 # Install Basic Ubuntu GUI Applications
 
 ```
-
-# Visual Studio Code
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
-sudo apt update
-
-sudo apt install -y code
-
-
 # Google Chrome
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
@@ -150,5 +139,3 @@ sudo snap install postman
 # PHP development
 
 [See PHP Developmen](README-PHP)
-
-
