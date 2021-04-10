@@ -14,6 +14,8 @@ sudo apt install -y guake vim-gtk3
 https://ohmyz.sh/#install
 
 ```
+sudo apt install zsh
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 chsh -s $(which zsh)
@@ -29,9 +31,16 @@ https://github.com/tonsky/FiraCode/
 sudo apt install -y fonts-firacode 
 ```
 
+# Manuall install of Linux GUI Applications
+
+* [Smartgit](https://www.syntevo.com/smartgit/download/)
+* [Teamviewer](https://www.teamviewer.com/es/descarga/linux/)
+ 
+
 # Install Basic Ubuntu GUI Applications
 
 ```
+
 # Visual Studio Code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -41,15 +50,6 @@ sudo apt update
 
 sudo apt install -y code
 
-# Sublime Text 3
-
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-sudo apt-get install -y apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-
-sudo apt update
-sudo apt install -y sublime-text
-
 
 # Google Chrome
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
@@ -57,7 +57,15 @@ sudo add-apt-repository "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/
 sudo apt-get update
 sudo apt-get install -y google-chrome-stable
 
+# SNAP apps
+sudo snap install rambox
+sudo snap install skype --classic
+sudo snap install teams
+```
 
+# Install Development Applications
+
+```
 # Docker
 
 sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
@@ -84,18 +92,17 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update
 sudo apt install -y yarn
 
-```
+#####################
+# Install snap apps #
+#####################
 
-# Install snap apps
-
-```
-sudo snap install insomnia 
-sudo snap install postman
-sudo snap install rambox
+# Databases
 sudo snap install dbeaver-ce
 sudo snap install code --classic
-sudo snap install sublime-text --classic
-sudo snap install skype --classic
+
+# REST APIs 
+sudo snap install insomnia 
+sudo snap install postman
 ```
 
 # Visual Studio Code (extensions)
@@ -120,45 +127,8 @@ sudo snap install skype --classic
 
 [See NodeJS Developmen](README-NodeJS)
 
+# PHP development
 
-# PHP Development
+[See PHP Developmen](README-PHP)
 
-```
-apt install -y php7.1-cli
-```
 
-## COMPOSER
-
-```
-wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- 
-```
-
-## Drupal
-
-```
-# DRUSH
-
-wget -O drush.phar https://github.com/drush-ops/drush-launcher/releases/download/0.6.0/drush.phar
-chmod +x drush.phar
-sudo mv drush.phar /usr/local/bin/drush
-
-```
-
-## Wordpress
-
-```
-# WORDPRESS CLI
-curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
-chmod +x wp-cli.phar
-sudo mv wp-cli.phar /usr/local/bin/wp
-```
-
-# ANDROID Development 
-
-https://mfonville.github.io/android-studio/
-
-```
-sudo apt-add-repository ppa:maarten-fonville/android-studio 
-sudo apt-get update
-sudo apt-get install android-studio
-```
