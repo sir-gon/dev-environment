@@ -35,7 +35,20 @@ sudo apt install -y fonts-firacode
 
 * [Smartgit](https://www.syntevo.com/smartgit/download/)
 * [Teamviewer](https://www.teamviewer.com/es/descarga/linux/)
- 
+* [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+
+Or a improvised automation:
+
+```
+# SMARTGIT
+curl https://www.syntevo.com/downloads/smartgit/smartgit-20_2_4.deb -o smartgit-20_2_4.deb&& sudo dpkg -i smartgit-20_2_4.deb && rm smartgit-20_2_4.deb
+
+# TEAMVIEWER
+curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o teamviewer_amd64.deb && sudo dpkg -i teamviewer_amd64.deb && rm teamviewer_amd64.deb
+
+# MONGODB-COMPASS
+curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o mongodb-compass_1.26.1_amd64.deb && sudo dpkg -i mongodb-compass_1.26.1_amd64.deb && rm mongodb-compass_1.26.1_amd64.deb
+``` 
 
 # Install Basic Ubuntu GUI Applications
 
@@ -96,12 +109,16 @@ sudo apt install -y yarn
 # Install snap apps #
 #####################
 
-# Databases
-sudo snap install dbeaver-ce
+# IDE
+
 sudo snap install code --classic
 
+# Databases
+sudo snap install dbeaver-ce
+
 # REST APIs 
-sudo snap install insomnia 
+sudo snap install insomnia
+sudo snap install insomnia-designer
 sudo snap install postman
 ```
 
