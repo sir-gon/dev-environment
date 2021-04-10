@@ -4,12 +4,6 @@
 choco install -y curl git rsync vim-x64 yarn
 ```
 
-# Install NPM global packages 
-
-```
-yarn global add newman dotenv-cli
-```
-
 # Install Basic Windows Applications
 
 ```
@@ -23,6 +17,8 @@ choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechro
 choco install -y visualstudiocode
 
 choco install -y python
+
+choco install -y nodejs-lts
 
 choco install -y android-sdk androidstudio dbeaver cmder docker-for-windows jdk8 mongodb-compass postman
 
@@ -72,6 +68,5 @@ https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/
 
 # NodeJS development
 
-```
-sudo npm install -g concurrently cross-env eslint newman serverless   
-```
+[See NodeJS Developmen](README-NodeJS)
+
