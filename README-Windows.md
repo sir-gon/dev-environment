@@ -7,20 +7,36 @@ choco install -y curl git rsync vim-x64 yarn
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer virtualbox
+choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
+
+choco install -y skype zoom
 
 ```
 
 # Install Development Tools
 
 ```
+# FAVORITE IDE
+
 choco install -y visualstudiocode
+
+# PROGRAMMING LANGUAGES & FRAMEWORKS
 
 choco install -y python
 
 choco install -y nodejs-lts
 
-choco install -y android-sdk androidstudio dbeaver cmder docker-for-windows jdk8 mongodb-compass postman
+# ANDROID MOBILE DEVELOPMENT
+
+choco install -y android-sdk androidstudio 
+
+# DATABASES
+
+choco install -y dbeaver cmder docker-for-windows jdk8 mongodb-compass 
+
+# API DEVELOPMENT
+
+choco install -y insomnia insomnia-designer postman
 
 ```
 
