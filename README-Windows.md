@@ -9,7 +9,7 @@ choco install -y curl git rsync vim-x64 yarn
 ```
 choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
 
-choco install -y skype zoom
+choco install -y microsoft-teams skype zoom
 
 choco install -y spotify vlc
 
@@ -61,6 +61,13 @@ choco install -y unetbootin
 
 ```
 choco install -y firacode
+```
+
+# Install Alpine linux subsystem packages 
+
+```
+apk update
+apk add bind-tools curl nmap git openssh-client vim
 ```
 
 
