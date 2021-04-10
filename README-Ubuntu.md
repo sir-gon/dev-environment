@@ -142,10 +142,15 @@ sudo snap install postman
 
 [See NodeJS Developmen](README-NodeJS)
 
+
+# PHP development
+
+[See PHP Developmen](README-PHP)
+
+
 # DevOps tools / Cloud Development
 
 ```
-
 # Kubernetes
 
 sudo snap install kubernetes
@@ -162,7 +167,3 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
 
 sudo snap install 
 ```
-
-# PHP development
-
-[See PHP Developmen](README-PHP)
