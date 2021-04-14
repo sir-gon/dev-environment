@@ -7,13 +7,18 @@ choco install -y curl git rsync vim-x64 yarn
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip  autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
+choco install -y 7zip adobereader autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
 
 choco install -y microsoft-teams skype zoom
 
 choco install -y spotify vlc
 
 ```
+
+# Manual Install Basic Windows Applications
+
+* [QTTabbar (tabs for file explorer)] (http://qttabbar.wikidot.com/)
+
 
 # Install Development Tools
 
