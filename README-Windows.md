@@ -1,3 +1,7 @@
+# Adjust time to use UTC from internal clock
+
+https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+
 # Install Basic cli stack for Windows 
 
 ```
