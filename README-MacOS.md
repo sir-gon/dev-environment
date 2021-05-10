@@ -59,29 +59,7 @@ brew install tor connect
 
 # Visual Studio Code (extensions)
 
-```
-code --install-extension 2gua.rainbow-brackets 
-code --install-extension EditorConfig.EditorConfig
-code --install-extension Equinusocio.vsc-material-theme
-code --install-extension PKief.material-icon-theme
-code --install-extension PeterJausovec.vscode-docker
-# code --install-extension WallabyJs.quokka-vscode
-code --install-extension Zim.vsc-docker
-# code --install-extension dbaeumer.jshint
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension donjayamanne.githistory
-code --install-extension eamodio.gitlens
-code --install-extension eriklynd.json-tools
-code --install-extension felixfbecker.php-debug
-code --install-extension hbenl.vscode-firefox-debug
-code --install-extension lukehoban.Go
-code --install-extension mikestead.dotenv
-code --install-extension ms-python.python
-code --install-extension msjsdiag.debugger-for-chrome
-code --install-extension yzane.markdown-pdf
-code --install-extension yzhang.markdown-all-in-one
-code --install-extension iciclesoft.workspacesort
-```
+[Visual Studio Code recommendations](README-VisualStudioCode.md)
 
 # Docker
 
@@ -147,3 +125,7 @@ brew cask install android-studio android-sdk android-ndk
 # accept all licences
 yes | sdkmanager --licenses
 ```
+
+# Additional recomendations
+
+[How to Set Up Your Mac for Web Development in 2021 by Vinicius De Antoni](https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462#9018)
