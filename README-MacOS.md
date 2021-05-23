@@ -15,7 +15,21 @@ brew install ext4fuse
 ```
 brew install --cask android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
 
-brew install --cask microsoft-office
+brew install --cask microsoft-office microsoft-teams
+
+brew install --cask zoom
+
+```
+
+# Gamming (because is important)
+
+```
+brew install --cask openemu
+
+brew install --cask discord twitch
+
+brew install --cask battle-net epic-games steam
+
 ```
 
 
