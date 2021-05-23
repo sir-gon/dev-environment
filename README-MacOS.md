@@ -13,9 +13,7 @@ brew install ext4fuse
 
 # Install Basic MacOS Applications
 ```
-brew tap caskroom/cask
-
-brew cask install android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
+brew install --cask android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
 
 brew install --cask microsoft-office
 ```
@@ -72,7 +70,7 @@ brew install --cask fastlane
 https://github.com/tonsky/FiraCode/
 
 ```
-brew cask install homebrew/cask-fonts/font-droidsansmono-nerd-font homebrew/cask-fonts/font-droidsansmono-nerd-font-mono homebrew/cask-fonts/font-hack-nerd-font homebrew/cask-fonts/font-hack-nerd-font-mono
+brew install --cask homebrew/cask-fonts/font-droidsansmono-nerd-font homebrew/cask-fonts/font-droidsansmono-nerd-font-mono homebrew/cask-fonts/font-hack-nerd-font homebrew/cask-fonts/font-hack-nerd-font-mono
 ```
 
 ## For upgrading brew cask applications
