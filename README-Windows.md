@@ -113,9 +113,9 @@ https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/
 
 # Visual Studio Code (extensions)
 
-[See Visual Studio Code extensions](README-VisualStudioCode)
+[See Visual Studio Code extensions](README-VisualStudioCode.md)
 
 # NodeJS development
 
-[See NodeJS Developmen](README-NodeJS)
+[See NodeJS Development](README-NodeJS.md)
 
