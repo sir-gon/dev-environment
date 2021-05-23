@@ -15,8 +15,57 @@ brew install ext4fuse
 ```
 brew tap caskroom/cask
 
-brew cask install android-file-transfer bettertouchtool calibre cyberduck dbeaver-community dropbox fastlane firefox flux google-chrome google-drive-file-stream insomnia iterm2 libreoffice libreoffice-language-pack macvim opera poedit postman rambox resilio-sync robo-3t smartgit soapui vuze teamviewer virtualbox virtualbox-extension-pack visual-studio-code vlc vivaldi wireshark
+brew cask install android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
+
+brew install --cask microsoft-office
 ```
+
+
+# Install Development Tools
+
+```
+brew install --cask smartgit
+
+# Favorite IDE
+
+brew install --cask macvim visual-studio-code
+brew install --cask poedit 
+
+# Languages & Runtimes
+
+brew install node
+
+
+# Virtualization / Containerization
+
+brew install --cask docker
+brew install --cask virtualbox virtualbox-extension-pack
+
+# DATABASE
+
+brew install --cask dbeaver-community mongodb-compass
+
+# REST API / SOAP
+
+brew install --cask insomnia postman soapui
+
+# Networking
+
+brew install --cask wireshark
+
+# Alternative browsers
+
+brew install --cask opera vivaldi
+
+# FTP / SFTP
+
+brew install --cask cyberduck
+
+# CI / CD
+
+brew install --cask fastlane  
+```
+
 
 # Install typography for coding
 
@@ -56,28 +105,16 @@ chsh -s $(which fish)
 brew install tor connect
 ```
 
-
 # Visual Studio Code (extensions)
 
-[Visual Studio Code recommendations](README-VisualStudioCode.md)
-
-# Docker
-
-```
-brew cask install docker
-```
+[See Visual Studio Code extensions](README-VisualStudioCode.md)
 
 # NodeJS development
 
-```
-brew install node
-```
+[See NodeJS Development](README-NodeJS.md)
 
-```
-sudo npm install -g concurrently cross-env eslint newman serverless   
-```
 
-# React Native development
+## React Native development
 
 ```
 brew install node watchman
