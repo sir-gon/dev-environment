@@ -19,7 +19,7 @@ brew install --cask microsoft-office
 ```
 
 
-# Install Development Tools
+# Install Development Tools
 
 ```
 brew install --cask smartgit
