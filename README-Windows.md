@@ -5,7 +5,7 @@ https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-
 # Install Basic cli stack for Windows 
 
 ```
-choco install -y curl git rsync vim-x64 yarn
+choco install -y curl git rsync vim-x64
 ```
 
 # Install Basic Windows Applications
@@ -36,7 +36,7 @@ choco install -y smartgit
 
 choco install -y python
 
-choco install -y nodejs-lts
+choco install -y nodejs-lts  yarn
 
 choco install -y jdk8
 
