@@ -24,7 +24,7 @@ choco install -y microsoft-teams office365proplus
 
 
 ```
-choco install battle.net epicgameslauncher steam-client
+choco install -y battle.net epicgameslauncher steam-client
 
 choco install -y discord twitch
 
