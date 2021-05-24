@@ -42,6 +42,9 @@ choco install -y retroarch zsnes
 
 * [QTTabbar (tabs for file explorer)] (http://qttabbar.wikidot.com/)
 
+# Windows Subsystem Layer (required by Docker)
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
 
 # Install Development Tools
 
