@@ -54,6 +54,8 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the
 choco install -y visualstudiocode 
 choco install -y smartgit
 
+choco install -y visualstudio2019community
+
 # PROGRAMMING LANGUAGES & FRAMEWORKS
 
 choco install -y python
