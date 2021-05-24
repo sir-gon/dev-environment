@@ -34,6 +34,8 @@ choco install -y battle.net epicgameslauncher steam-client
 
 choco install -y discord twitch
 
+choco install -y retroarch zsnes
+
 ```
 
 # Manual Install Basic Windows Applications
