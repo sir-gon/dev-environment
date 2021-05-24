@@ -13,9 +13,20 @@ choco install -y curl git rsync vim-x64
 ```
 choco install -y 7zip adobereader autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
 
-choco install -y microsoft-teams skype zoom
+choco install -y skype zoom
 
 choco install -y spotify vlc
+
+choco install -y microsoft-teams office365proplus
+
+```
+# Gamming (because is important)
+
+
+```
+choco install battle.net epicgameslauncher steam-client
+
+choco install -y discord twitch
 
 ```
 
