@@ -50,7 +50,7 @@ choco install -y dbeaver mongodb-compass
 
 # CONTAINERS & Windows Subsystem for Linux
 
-choco install -y wsl2 docker-for-windows
+choco install -y docker-desktop
 
 # Windows Subsystem for Linux Distros
 
