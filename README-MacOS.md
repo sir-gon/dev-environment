@@ -105,11 +105,13 @@ brew cu -a -y
 
 # Terminal
 ```
-curl -L http://get.oh-my.fish | fish
-omf install zish
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
-echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
-chsh -s $(which fish)
+chsh -s $(which zsh)
+
+zsh
+
+omz  theme use gnzh
 ```
 
 # Proxy stuff
