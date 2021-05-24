@@ -1,6 +1,12 @@
+# Install Chocolatey
+
+https://chocolatey.org/install
+
 # Adjust time to use UTC from internal clock
 
 https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+
+Donwload and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%20UTC%20Time.reg)
 
 # Install Basic cli stack for Windows 
 
