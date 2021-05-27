@@ -36,6 +36,8 @@ choco install -y discord twitch
 
 choco install -y retroarch zsnes
 
+choco install -y dosbox
+
 ```
 
 # Manual Install Basic Windows Applications
