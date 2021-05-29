@@ -17,7 +17,7 @@ choco install -y curl git rsync vim-x64
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip adobereader autohotkey ccleaner coretemp cyberduck firefox googlechrome libreoffice-still opera rambox teamviewer
+choco install -y 7zip adobereader autohotkey ccleaner coretemp googlechrome libreoffice-still rambox teamviewer
 
 choco install -y skype zoom
 
@@ -65,6 +65,10 @@ choco install -y python
 choco install -y nodejs-lts  yarn
 
 choco install -y jdk8
+
+# Web development
+
+choco install -y firefox opera
 
 # ANDROID MOBILE DEVELOPMENT
 
