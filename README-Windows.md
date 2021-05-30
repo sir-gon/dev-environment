@@ -51,6 +51,11 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the
 # Install Development Tools
 
 ```
+
+# Diagram tools
+
+choco install -y graphviz drawio
+
 # FAVORITE IDE
 
 choco install -y visualstudiocode 
