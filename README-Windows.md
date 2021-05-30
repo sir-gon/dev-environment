@@ -35,6 +35,8 @@ choco install -y spotify vlc
 
 choco install -y microsoft-teams office365proplus
 
+choco install -y googledrive resilio-sync-home
+
 ```
 # Gamming (because is important)
 
