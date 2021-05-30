@@ -65,11 +65,13 @@ choco install -y visualstudio2019community
 
 # PROGRAMMING LANGUAGES & FRAMEWORKS
 
-choco install -y python
+choco install -y golang
+
+choco install -y jdk8
 
 choco install -y nodejs-lts  yarn
 
-choco install -y jdk8
+choco install -y python
 
 # Web development
 
