@@ -35,7 +35,7 @@ scoop update
 
 scoop install grep sed less touch
 
-scoop install curl dig git nmap ntop vim
+scoop install curl dig git ntop sudo vim
 ```
 
 Rsync
@@ -48,7 +48,8 @@ scoop install cwrsync
 Nerd Fonts
 https://www.nerdfonts.com/
 ```
-scoop install FiraCode-NF-Mono FiraCode-NF Firacode
+scoop bucket add nerd-fonts
+sudo scoop install FiraCode-NF-Mono FiraCode-NF Firacode
 ```
 
 
