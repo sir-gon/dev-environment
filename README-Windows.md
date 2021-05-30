@@ -29,6 +29,7 @@ iwr -useb get.scoop.sh | iex
 
 ```
 scoop bucket add extras
+scoop update
 
 scoop install aria2
 
