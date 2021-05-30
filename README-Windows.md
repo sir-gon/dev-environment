@@ -1,12 +1,22 @@
-# Install Chocolatey
+# Basic Tips
 
-https://chocolatey.org/install
+## Create Desktop Shortcut for Store app in Windows 10
 
-# Adjust time to use UTC from internal clock
+https://winaero.com/desktop-shortcut-store-app-windows-10/ 
+
+## Adjust time to use UTC from internal clock
 
 https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 
 Donwload and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%20UTC%20Time.reg)
+
+## Windows Subsystem Layer (required by Docker)
+
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+# Install Chocolatey
+
+https://chocolatey.org/install
 
 # Install Basic cli stack for Windows 
 
@@ -39,14 +49,6 @@ choco install -y retroarch zsnes
 choco install -y dosbox
 
 ```
-
-# Manual Install Basic Windows Applications
-
-* [QTTabbar (tabs for file explorer)] (http://qttabbar.wikidot.com/)
-
-# Windows Subsystem Layer (required by Docker)
-
-https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
 
 # Install Development Tools
 
