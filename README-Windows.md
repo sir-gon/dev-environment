@@ -38,6 +38,24 @@ scoop install grep sed less touch
 scoop install curl git nmap ntop vim
 ```
 
+Nerd Fonts
+
+```
+scoop install FiraCode-NF-Mono FiraCode-NF Firacode
+```
+
+
+Oh-my-Posh
+https://ohmyposh.dev/docs/windows
+
+```
+scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+
+oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
+
+. $PROFILE
+```
+
 # Install Chocolatey
 
 https://chocolatey.org/install
