@@ -28,6 +28,8 @@ iwr -useb get.scoop.sh | iex
 ## Command line tools
 
 ```
+scoop bucket add extras
+
 scoop install aria2
 
 scoop install grep sed less touch
