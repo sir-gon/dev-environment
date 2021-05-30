@@ -38,8 +38,15 @@ scoop install grep sed less touch
 scoop install curl git nmap ntop vim
 ```
 
-Nerd Fonts
+Rsync
+https://githubmemory.com/repo/AStupidBear/scoop-bear
+```
+scoop bucket add bear https://github.com/AStupidBear/scoop-bear
+scoop install cwrsync
+```
 
+Nerd Fonts
+https://www.nerdfonts.com/
 ```
 scoop install FiraCode-NF-Mono FiraCode-NF Firacode
 ```
