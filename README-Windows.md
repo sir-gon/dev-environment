@@ -16,7 +16,7 @@ https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the
 
 # Scoop package manager
 
-Foom: https://get.scoop.sh
+From: https://get.scoop.sh
 
 ```
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
