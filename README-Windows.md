@@ -14,6 +14,27 @@ Donwload and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
 
+# Scoop package manager
+
+Foom: https://get.scoop.sh
+
+```
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+
+# or shorter
+iwr -useb get.scoop.sh | iex
+``` 
+
+## Command line tools
+
+```
+scoop install aria2
+
+scoop install grep sed less touch
+
+scoop install curl git nmap ntop vim
+```
+
 # Install Chocolatey
 
 https://chocolatey.org/install
@@ -21,7 +42,7 @@ https://chocolatey.org/install
 # Install Basic cli stack for Windows 
 
 ```
-choco install -y curl git rsync vim-x64
+choco install -y curl git rsync 
 ```
 
 # Install Basic Windows Applications
@@ -66,10 +87,13 @@ choco install -y graphviz drawio
 
 # FAVORITE IDE
 
+choco install -y vim-x64
 choco install -y visualstudiocode 
-choco install -y smartgit
-
 choco install -y visualstudio2019community
+
+# Git & diff frontend
+
+choco install -y smartgit
 
 # PROGRAMMING LANGUAGES & FRAMEWORKS
 
