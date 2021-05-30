@@ -35,14 +35,18 @@ choco install -y spotify vlc
 
 choco install -y microsoft-teams office365proplus
 
-choco install -y googledrive resilio-sync-home
+choco install -y googledrive
+
+choco install -y --ignore-checksums resilio-sync-home
 
 ```
 # Gamming (because is important)
 
 
 ```
-choco install -y battle.net epicgameslauncher steam-client
+choco install -y epicgameslauncher steam-client
+
+choco install -y --ignore-checksums battle.net
 
 choco install -y discord twitch
 
