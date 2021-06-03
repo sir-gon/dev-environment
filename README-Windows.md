@@ -8,7 +8,7 @@ https://winaero.com/desktop-shortcut-store-app-windows-10/
 
 https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 
-Donwload and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%20UTC%20Time.reg)
+Download and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%20UTC%20Time.reg)
 
 ## Windows Subsystem Layer (required by Docker)
 
@@ -77,7 +77,7 @@ choco install -y curl git rsync
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip adobereader autohotkey ccleaner coretemp googlechrome libreoffice-still rambox teamviewer
+choco install -y 7zip adobereader autohotkey ccleaner coretemp f.lux googlechrome libreoffice-still rambox teamviewer
 
 choco install -y skype zoom
 
