@@ -170,6 +170,17 @@ choco install -y unetbootin
 choco install -y firacode
 ```
 
+
+
+# Upgrade all applicacions
+
+```
+sudo choco upgrade all -y --ignore-checksums
+scoop update *
+```
+
+
+
 # Install Alpine linux subsystem packages 
 
 ```
