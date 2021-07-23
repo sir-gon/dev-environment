@@ -172,7 +172,7 @@ choco install -y firacode
 
 
 
-# Upgrade all applicacions
+# Upgrade all applications
 
 ```
 sudo choco upgrade all -y --ignore-checksums
