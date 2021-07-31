@@ -77,7 +77,7 @@ choco install -y curl git rsync
 # Install Basic Windows Applications
 
 ```
-choco install -y 7zip adobereader autohotkey ccleaner coretemp f.lux googlechrome libreoffice-still rambox teamviewer
+choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux googlechrome libreoffice-still rambox teamviewer
 
 choco install -y skype zoom
 
