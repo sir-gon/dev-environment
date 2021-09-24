@@ -52,6 +52,21 @@ brew install node
 
 brew install --cask docker
 brew install --cask virtualbox virtualbox-extension-pack
+brew install minikube
+
+## Autocomplete for container tools:
+
+### Kubernetes
+
+echo 'alias k=kubectl' >>~/.zshrc
+echo 'complete -F __start_kubectl k' >>~/.zshrc
+
+### Minikube:
+### Due a bug in autocomplete script for zsh
+### Source: https://github.com/kubernetes/minikube/issues/11348#issuecomment-926130349
+
+sed -i "" 's/aliashash\["\([a-z]*\)"\]/aliashash[\1]/g' $(realpath /usr/local/share/zsh/site-functions/_minikube)
+
 
 # DATABASE
 
