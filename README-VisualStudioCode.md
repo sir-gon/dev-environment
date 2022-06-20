@@ -7,10 +7,11 @@
 code --install-extension 2gua.rainbow-brackets
 code --install-extension johnpapa.vscode-peacock
 
-# Docker / Kubernetes
+# DevOps / Docker / Terraform / Kubernetes
 
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+code --install-extension hashicorp.terraform
 
 # Code styling
 
