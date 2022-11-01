@@ -163,7 +163,8 @@ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
   && sudo ./aws/install
   && rm awscliv2.zip
 
-# Google Cloud Platform
 
-sudo snap install 
 ```
+
+## Google Cloud Platform
+[See GCP docs](https://cloud.google.com/sdk/docs/install#deb)
