@@ -122,7 +122,7 @@ sudo snap install postman
 
 # Visual Studio Code (extensions)
 
-[See Visual Studio Code extensions](README-VisualStudioCode)
+[See Visual Studio Code extensions](README-VisualStudioCode.md)
 
 # GNOME Shell
 
