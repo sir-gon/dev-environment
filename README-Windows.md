@@ -31,11 +31,11 @@ iwr -useb get.scoop.sh | iex
 scoop bucket add extras
 scoop update
 
-# scoop install aria2
-
 scoop install grep sed less touch
 
-scoop install curl dig git ntop sudo vim
+scoop install curl git ntop sudo vim make unxutils
+
+scoop install bind
 ```
 
 Rsync
