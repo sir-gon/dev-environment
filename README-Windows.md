@@ -65,23 +65,31 @@ oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 . $PROFILE
 ```
 
+## Install Basic Windows Applications
+
+```
+sudo scoop install --global 7zip autohotkey caffeine ccleaner coretemp flux libreoffice rambox
+sudo scoop install --global --skip teamviewer
+
+```
+
+## Install multiple web browsers (web development)
+
+```
+sudo scoop install --global brave chromium firefox googlechrome opera
+```
+
+
 # Install Chocolatey
 
 https://chocolatey.org/install
 
 
-# Install Basic Windows Applications
-
-
-```
-sudo scoop install --global 7zip autohotkey caffeine ccleaner coretemp flux
-
-sudo scoop install --global brave chromium firefox googlechrome opera  
-```
+## Install Basic Windows Applications
 
 ```
 
-choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux googlechrome libreoffice-still rambox teamviewer
+choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
 
 
 choco install -y skype zoom
@@ -163,9 +171,6 @@ choco install -y docker-desktop
 
 choco install -y insomnia-rest-api-client insomnia-designer postman
 
-# SO Tools
-
-choco install -y unetbootin
 
 ```
 
