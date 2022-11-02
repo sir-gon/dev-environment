@@ -25,24 +25,25 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 iwr -useb get.scoop.sh | iex
 ``` 
 
-## Command line tools
+## Install Basic CLI tools for Windows 
 
 ```
 scoop bucket add extras
 scoop update
+scoop install sudo
 
-scoop install grep sed less touch
+sudo scoop install --global grep sed less touch
 
-scoop install curl git ntop sudo vim make unxutils
+sudo scoop install --global curl git ntop sudo vim make unxutils
 
-scoop install bind
+sudo scoop install --global bind
 ```
 
 Rsync
 https://githubmemory.com/repo/AStupidBear/scoop-bear
 ```
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
-scoop install cwrsync
+sudo scoop install --global cwrsync
 ```
 
 Nerd Fonts
@@ -68,16 +69,20 @@ oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 
 https://chocolatey.org/install
 
-# Install Basic cli stack for Windows 
-
-```
-choco install -y curl git rsync 
-```
 
 # Install Basic Windows Applications
 
+
 ```
+sudo scoop install --global 7zip autohotkey caffeine ccleaner coretemp flux
+
+sudo scoop install --global brave chromium firefox googlechrome opera  
+```
+
+```
+
 choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux googlechrome libreoffice-still rambox teamviewer
+
 
 choco install -y skype zoom
 
