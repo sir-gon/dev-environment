@@ -107,6 +107,12 @@ sudo scoop install --global vscode
 sudo scoop install --global smartgit 
 ```
 
+# API DEVELOPMENT
+
+```
+sudo scoop install --global insomnia insomnia-designer postman 
+```
+
 # DATABASES
 
 ```
@@ -119,6 +125,8 @@ sudo scoop install --global mongodb-compass
 ```
 sudo scoop install --global android-sdk android-studio
 ```
+
+
 
 # Upgrade all applications
 
