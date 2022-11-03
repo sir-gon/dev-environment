@@ -107,7 +107,6 @@ sudo scoop install --global vscode
 sudo scoop install --global smartgit 
 ```
 
-
 # DATABASES
 
 ```
@@ -115,8 +114,11 @@ sudo scoop install --global dbeaver
 sudo scoop install --global mongodb-compass 
 ```
 
+# Android Development
 
-
+```
+sudo scoop install --global android-sdk android-studio
+```
 
 # Upgrade all applications
 
