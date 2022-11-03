@@ -123,46 +123,50 @@ choco install -y dosbox
 
 ```
 
+# Multiple web browsers
+
+sudo choco install brave firefox googlechrome opera
+
 # Diagram tools
 
-choco install -y graphviz drawio
+sudo choco install -y graphviz drawio
 
 
 # FAVORITE IDE
 
-choco install -y vim-x64
-choco install -y visualstudiocode 
-choco install -y visualstudio2019community
+sudo choco install -y vim-x64
+sudo choco install -y visualstudiocode 
+sudo choco install -y visualstudio2019community
 
 
 # Git & diff frontend
 
-choco install -y smartgit
+sudo choco install -y smartgit
 
 
 # Web development
 
-choco install -y firefox opera
+sudo choco install -y firefox opera
 
 
 # ANDROID MOBILE DEVELOPMENT
 
-choco install -y android-sdk androidstudio 
+sudo choco install -y android-sdk androidstudio 
 
 
 # DATABASES
 
-choco install -y dbeaver mongodb-compass 
+sudo choco install -y dbeaver mongodb-compass 
 
 
 # CONTAINERS & Windows Subsystem for Linux
 
-choco install -y docker-desktop
+sudo choco install -y docker-desktop
 
 
 # API DEVELOPMENT
 
-choco install -y insomnia-rest-api-client insomnia-designer postman
+sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 ```
 
 
@@ -196,7 +200,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
 sudo apt update
 sudo apt upgrade -y
  
-sudo apt install htop zsh
+sudo apt install htop vim zsh
 ```
 
 # Install Docker client in Ubuntu linux subsystem packages 
