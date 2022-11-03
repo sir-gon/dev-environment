@@ -32,6 +32,8 @@ scoop bucket add extras
 scoop update
 scoop install sudo
 
+sudo scoop install --global aria2
+
 sudo scoop install --global grep sed less touch
 
 sudo scoop install --global curl git ntop sudo vim make unxutils
