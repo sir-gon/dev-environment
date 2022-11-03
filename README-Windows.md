@@ -83,11 +83,6 @@ sudo scoop install --global python
 
 https://chocolatey.org/install
 
-## Install Basic cli stack for Windows 
-
-```
-choco install -y curl git rsync 
-```
 
 ## Install Basic Windows Applications
 
