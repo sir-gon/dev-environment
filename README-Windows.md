@@ -38,7 +38,7 @@ sudo scoop install --global grep sed less touch
 
 sudo scoop install --global curl git ntop sudo vim make unxutils
 
-sudo scoop install --global bind
+sudo scoop install --global bind extras/vcredist2022
 ```
 
 Rsync
