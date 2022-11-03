@@ -68,8 +68,11 @@ oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 ## Install Basic Windows Applications
 
 ```
+sudo scoop install --global extras/vcredist2022
 sudo scoop install --global 7zip autohotkey caffeine ccleaner coretemp flux libreoffice rambox
 sudo scoop install --global --skip teamviewer
+
+sudo scoop install --global microsoft-teams zoom
 
 ```
 
@@ -80,105 +83,38 @@ sudo scoop install --global brave chromium firefox googlechrome opera
 ```
 
 
-# Install Chocolatey
-
-https://chocolatey.org/install
-
-
-## Install Basic Windows Applications
+# PROGRAMMING LANGUAGES & FRAMEWORKS
 
 ```
+sudo scoop install --global go
 
-choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
+sudo scoop install --global nodejs-lts  yarn
 
-
-choco install -y skype zoom
-
-choco install -y spotify vlc
-
-choco install -y microsoft-teams office365proplus
-
-choco install -y dropbox google-drive-file-stream
-
-choco install -y --ignore-checksums resilio-sync-home
-
+sudo scoop install --global python
 ```
-# Gamming (because is important)
-
-
-```
-choco install -y epicgameslauncher steam-client
-
-choco install -y --ignore-checksums battle.net
-
-choco install -y discord twitch
-
-choco install -y retroarch zsnes
-
-choco install -y dosbox
-
-```
-
-# Install Development Tools
-
-```
-
-# Diagram tools
-
-choco install -y graphviz drawio
 
 # FAVORITE IDE
 
-choco install -y vim-x64
-choco install -y visualstudiocode 
-choco install -y visualstudio2019community
+```
+sudo scoop install --global vim
+sudo scoop install --global vscode 
+```
+
 
 # Git & diff frontend
 
-choco install -y smartgit
+```
+sudo scoop install --global smartgit 
+```
 
-# PROGRAMMING LANGUAGES & FRAMEWORKS
-
-choco install -y golang
-
-choco install -y jdk8
-
-choco install -y nodejs-lts  yarn
-
-choco install -y python
-
-# Web development
-
-choco install -y firefox opera
-
-# ANDROID MOBILE DEVELOPMENT
-
-choco install -y android-sdk androidstudio 
 
 # DATABASES
 
-choco install -y dbeaver mongodb-compass 
-
-# CONTAINERS & Windows Subsystem for Linux
-
-choco install -y docker-desktop
-
-# Windows Subsystem for Linux Distros
-
-
-
-# API DEVELOPMENT
-
-choco install -y insomnia-rest-api-client insomnia-designer postman
-
-
+```
+sudo scoop install --global dbeaver
+sudo scoop install --global mongodb-compass 
 ```
 
-# Install Fonts
-
-```
-choco install -y firacode
-```
 
 
 
