@@ -87,32 +87,32 @@ https://chocolatey.org/install
 ## Install Basic Windows Applications
 
 ```
-choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
+sudo choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
 
-choco install -y skype zoom
+sudo choco install -y skype zoom
 
-choco install -y spotify vlc
+sudo choco install -y spotify vlc
 
-choco install -y microsoft-teams office365proplus
+sudo choco install -y microsoft-teams office365proplus
 
-choco install -y dropbox google-drive-file-stream
+sudo choco install -y dropbox google-drive-file-stream
 
-choco install -y --ignore-checksums resilio-sync-home
+sudo choco install -y --ignore-checksums resilio-sync-home
 
 ```
 ## Gamming (because is important)
 
 
 ```
-choco install -y epicgameslauncher steam-client
+sudo choco install -y epicgameslauncher steam-client
 
-choco install -y --ignore-checksums battle.net
+sudo choco install -y --ignore-checksums battle.net
 
-choco install -y discord twitch
+sudo choco install -y discord twitch
 
-choco install -y retroarch zsnes
+sudo choco install -y retroarch zsnes
 
-choco install -y dosbox
+sudo choco install -y dosbox
 
 ```
 
