@@ -41,15 +41,6 @@ sudo scoop install --global curl git ntop sudo vim make unxutils
 sudo scoop install --global bind extras/vcredist2022
 ```
 
-## CLI Cloud tools
-
-```
-sudo scoop install --global aws
-sudo scoop install --global gcloud
-sudo scoop install --global terraform
-
-```
-
 Rsync
 https://githubmemory.com/repo/AStupidBear/scoop-bear
 ```
@@ -85,6 +76,17 @@ sudo scoop install --global go
 sudo scoop install --global nodejs-lts  yarn
 
 sudo scoop install --global python
+```
+
+## CLI Cloud tools
+
+```
+sudo scoop install --global aws
+sudo scoop install --global gcloud
+sudo scoop install --global terraform
+
+sudo scoop install --global helm kubectl minikube
+
 ```
 
 ## Install Basic (portable) Windows Applications
