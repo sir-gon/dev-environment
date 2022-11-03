@@ -78,6 +78,12 @@ sudo scoop install --global nodejs-lts  yarn
 sudo scoop install --global python
 ```
 
+## Install Basic (portable) Windows Applications
+
+```
+sudo scoop install --global rambox
+```
+
 
 # Install Chocolatey
 
@@ -87,7 +93,7 @@ https://chocolatey.org/install
 ## Install Basic Windows Applications
 
 ```
-sudo choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
+sudo choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still teamviewer
 
 sudo choco install -y skype zoom
 
