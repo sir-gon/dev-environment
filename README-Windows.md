@@ -46,7 +46,7 @@ scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 sudo scoop install --global cwrsync
 ```
 
-Nerd Fonts
+## Nerd Fonts
 https://www.nerdfonts.com/
 ```
 scoop bucket add nerd-fonts
@@ -54,7 +54,7 @@ sudo scoop install FiraCode-NF-Mono FiraCode-NF Firacode
 ```
 
 
-Oh-my-Posh
+## Oh-my-Posh
 https://ohmyposh.dev/docs/windows
 
 ```
@@ -65,25 +65,8 @@ oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 . $PROFILE
 ```
 
-## Install Basic Windows Applications
 
-```
-sudo scoop install --global extras/vcredist2022
-sudo scoop install --global 7zip autohotkey caffeine ccleaner coretemp flux libreoffice rambox
-sudo scoop install --global --skip teamviewer
-
-sudo scoop install --global microsoft-teams zoom
-
-```
-
-## Install multiple web browsers (web development)
-
-```
-sudo scoop install --global brave chromium firefox googlechrome opera
-```
-
-
-# PROGRAMMING LANGUAGES & FRAMEWORKS
+## Programming Languages & Frameworks
 
 ```
 sudo scoop install --global go
@@ -93,40 +76,97 @@ sudo scoop install --global nodejs-lts  yarn
 sudo scoop install --global python
 ```
 
-# FAVORITE IDE
+
+# Install Chocolatey
+
+https://chocolatey.org/install
+
+## Install Basic cli stack for Windows 
 
 ```
-sudo scoop install --global vim
-sudo scoop install --global vscode 
+choco install -y curl git rsync 
 ```
+
+## Install Basic Windows Applications
+
+```
+choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still rambox teamviewer
+
+choco install -y skype zoom
+
+choco install -y spotify vlc
+
+choco install -y microsoft-teams office365proplus
+
+choco install -y dropbox google-drive-file-stream
+
+choco install -y --ignore-checksums resilio-sync-home
+
+```
+## Gamming (because is important)
+
+
+```
+choco install -y epicgameslauncher steam-client
+
+choco install -y --ignore-checksums battle.net
+
+choco install -y discord twitch
+
+choco install -y retroarch zsnes
+
+choco install -y dosbox
+
+```
+
+## Install Development Tools
+
+```
+
+# Diagram tools
+
+choco install -y graphviz drawio
+
+
+# FAVORITE IDE
+
+choco install -y vim-x64
+choco install -y visualstudiocode 
+choco install -y visualstudio2019community
 
 
 # Git & diff frontend
 
-```
-sudo scoop install --global smartgit 
-```
+choco install -y smartgit
 
-# API DEVELOPMENT
 
-```
-sudo scoop install --global insomnia insomnia-designer postman 
-```
+# Web development
+
+choco install -y firefox opera
+
+
+# ANDROID MOBILE DEVELOPMENT
+
+choco install -y android-sdk androidstudio 
+
 
 # DATABASES
 
-```
-sudo scoop install --global dbeaver
-sudo scoop install --global mongodb-compass 
-```
-
-# Android Development
-
-```
-sudo scoop install --global android-sdk android-studio
-```
+choco install -y dbeaver mongodb-compass 
 
 
+# CONTAINERS & Windows Subsystem for Linux
+
+choco install -y docker-desktop
+
+
+# API DEVELOPMENT
+
+choco install -y insomnia-rest-api-client insomnia-designer postman
+```
+
+
+****
 
 # Upgrade all applications
 
@@ -156,7 +196,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
 sudo apt update
 sudo apt upgrade -y
  
-sudo apt install fish htop zsh
+sudo apt install htop zsh
 ```
 
 # Install Docker client in Ubuntu linux subsystem packages 
