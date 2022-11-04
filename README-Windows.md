@@ -162,6 +162,9 @@ sudo choco install -y smartgit
 
 sudo choco install -y firefox opera
 
+# Java 11 SDK
+
+sudo choco install Temurin11 --params="/ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome /INSTALLDIR=$env:Programfiles\Eclipse Adoptium\ /quiet"
 
 # ANDROID MOBILE DEVELOPMENT
 
