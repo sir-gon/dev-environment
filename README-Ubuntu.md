@@ -5,8 +5,6 @@
 
 sudo apt install -y curl git htop net-tools nmap pv vim graphviz
 
-sudo apt install -y guake vim-gtk3
-
 ```
 
 # Terminal
@@ -60,6 +58,12 @@ curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o m
 ``` 
 
 # Install Basic Ubuntu GUI Applications
+
+
+```
+sudo apt install -y guake vim-gtk3
+
+```
 
 ```
 # Google Chrome
