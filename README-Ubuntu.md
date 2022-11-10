@@ -22,7 +22,7 @@ chsh -s $(which zsh)
 
 zsh
 
-omz  theme use gnzh
+omz  theme set gnzh
 
 ```
 
