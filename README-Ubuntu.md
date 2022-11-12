@@ -12,7 +12,7 @@ sudo apt install -y curl git htop net-tools nmap pv vim graphviz
 https://ohmyz.sh/#install
 
 ```
-sudo apt install zsh
+sudo apt install -y zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
