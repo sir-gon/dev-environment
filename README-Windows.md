@@ -206,6 +206,7 @@ apk --update add bind-tools curl git graphviz htop nmap pv openssh-client zsh vi
 chsh -s $(which zsh)
 ```
 
+Then in a new terminal running zsh, [Install OMZ](README-Ubuntu.md#terminal-omz)
 
 ## Install Ubuntu linux subsystem packages 
 
@@ -216,6 +217,8 @@ sudo apt install -y apt-transport-https ca-certificates curl software-properties
 sudo apt install -y curl git graphviz htop net-tools nmap pv openssh-client zsh vim
 chsh -s $(which zsh)
 ```
+
+Then in a new terminal running zsh, [Install OMZ](README-Ubuntu.md#terminal-omz)
 
 ## Install Docker client in Ubuntu linux subsystem packages 
 
