@@ -189,7 +189,7 @@ sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 
 ****
 
-# Upgrade all applications
+## Upgrade all applications
 
 ```
 sudo choco upgrade all -y --ignore-checksums
@@ -197,45 +197,30 @@ scoop update *
 ```
 
 
+# Windows Subsystem for Linux (WSL)
 
-# Install Alpine linux subsystem packages 
-
-```
-apk update
-apk add bind-tools curl nmap git openssh-client vim
-```
-
-
-# Install Ubuntu linux subsystem packages 
+## Install Alpine linux subsystem packages 
 
 ```
-sudo apt update
-sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
-
-sudo apt update
-sudo apt upgrade -y
- 
-sudo apt install htop vim zsh
+apk --update add bind-tools curl git graphviz htop nmap pv openssh-client zsh vim
+chsh -s $(which zsh)
 ```
 
-# Install Docker client in Ubuntu linux subsystem packages 
 
-https://medium.com/@sebagomez/installing-the-docker-client-on-ubuntus-windows-subsystem-for-linux-612b392a44c4
+## Install Ubuntu linux subsystem packages 
 
 ```
 sudo apt update
-sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
-sudo apt update
-sudo apt install -y docker-ce
+sudo apt install -y curl git graphviz htop net-tools nmap pv openssh-client zsh vim
+chsh -s $(which zsh)
 ```
 
-# Enable bash / fish / zsh in cmder
+## Install Docker client in Ubuntu linux subsystem packages 
 
-https://gingter.org/2016/11/16/running-windows-10-ubuntu-bash-in-cmder/
+Is (now) a configuration of Docker Desktop. 
+Enable integration with WSL.
 
 # Visual Studio Code (extensions)
 
