@@ -3,23 +3,18 @@
 ```
 # Install Basic cli stack for Ubuntu
 
-sudo apt install -y curl git htop net-tools nmap pv vim graphviz
-
+sudo apt install -y curl git graphviz htop net-tools nmap pv openssh-client zsh vim
+chsh -s $(which zsh)
 ```
 
-# Terminal
+## Terminal OMZ
 
 https://ohmyz.sh/#install
 
+Then in a new terminal with zsh shell running:
+
 ```
-sudo apt install -y zsh
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
-
-chsh -s $(which zsh)
-
-zsh
-
 omz  theme set gnzh
 
 ```
