@@ -222,6 +222,10 @@ chsh -s $(which zsh)
 
 Then in a new terminal running zsh, [Install OMZ](README-Ubuntu.md#terminal-omz)
 
+## Tips Ubuntu WSL:
+
+[pbcopy in Ubuntu WSL](https://lloydrochester.com/post/unix/wsl-pbcopy-pbpaste/)
+
 ## Install Docker client in Ubuntu linux subsystem packages 
 
 Is (now) a configuration of Docker Desktop. 
