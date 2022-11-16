@@ -181,7 +181,7 @@ sudo choco install -y dbeaver mongodb-compass
 # CONTAINERS & Windows Subsystem for Linux
 
 sudo choco install -y docker-desktop
-
+sudo scoop install --global ctop
 
 # API DEVELOPMENT
 
