@@ -175,7 +175,7 @@ sudo choco install -y android-sdk androidstudio
 
 # DATABASES
 
-sudo choco install -y dbeaver mongodb-compass 
+sudo choco install -y dbeaver mongodb-compass mongodb-shell
 
 
 # CONTAINERS & Windows Subsystem for Linux
