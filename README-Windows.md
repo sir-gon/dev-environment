@@ -2,7 +2,7 @@
 
 ## Create Desktop Shortcut for Store app in Windows 10
 
-https://winaero.com/desktop-shortcut-store-app-windows-10/ 
+https://winaero.com/desktop-shortcut-store-app-windows-10/
 
 ## Adjust time to use UTC from internal clock
 
@@ -13,6 +13,10 @@ Download and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%
 ## Windows Subsystem Layer (required by Docker)
 
 https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+
+## Hot Corners
+
+https://github.com/vhanla/winxcorners
 
 # Scoop package manager
 
