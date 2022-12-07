@@ -198,8 +198,7 @@ sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 ## Upgrade all applications
 
 ```
-sudo choco upgrade all -y --ignore-checksums
-scoop update *
+sudo choco upgrade all -y --ignore-checksums; scoop update --global *
 ```
 
 
