@@ -201,6 +201,13 @@ sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 sudo choco upgrade all -y --ignore-checksums; scoop update --global *
 ```
 
+## Upgrade all applications and clean caches
+
+```
+choco upgrade all -y --ignore-checksums; C:\ProgramData\chocolatey\bin\choco-cleaner.bat; scoop update --global *; sudo scoop cache --global rm *
+```
+
+ scoop update --global *;
 
 # Windows Subsystem for Linux (WSL)
 
