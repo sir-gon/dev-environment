@@ -56,7 +56,7 @@ sudo scoop install --global cwrsync
 https://www.nerdfonts.com/
 ```
 scoop bucket add nerd-fonts
-sudo scoop install FiraCode-NF-Mono FiraCode-NF Firacode
+sudo scoop install --global FiraCode-NF-Mono FiraCode-NF Firacode
 ```
 
 
