@@ -145,7 +145,7 @@ sudo choco install -y dosbox
 
 # Multiple web browsers
 
-sudo choco install -y brave firefox googlechrome opera
+sudo choco install -y brave browser-select chromium firefox googlechrome opera
 
 # Diagram tools
 
