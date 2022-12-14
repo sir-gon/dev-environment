@@ -108,7 +108,7 @@ https://chocolatey.org/install
 ## Install Basic Windows Applications
 
 ```
-sudo choco install -y chocolateygui
+sudo choco install -y chocolateygui powertoys
 
 sudo choco install -y 7zip adobereader autohotkey caffeine ccleaner coretemp f.lux libreoffice-still teamviewer
 
