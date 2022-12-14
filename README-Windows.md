@@ -143,7 +143,7 @@ sudo choco install -y dosbox
 
 ```
 
-# Multiple web browsers
+# Multiple web browsers for web development
 
 sudo choco install -y brave browser-select chromium firefox googlechrome opera
 
@@ -163,10 +163,6 @@ sudo choco install -y visualstudio2019community
 
 sudo choco install -y smartgit
 
-
-# Web development
-
-sudo choco install -y firefox opera
 
 # Java 11 SDK
 
