@@ -154,15 +154,14 @@ sudo choco install -y graphviz drawio
 
 # FAVORITE IDE
 
-sudo choco install -y vim-x64
+sudo choco install -y vim
 sudo choco install -y visualstudiocode 
 sudo choco install -y visualstudio2019community
-
 
 # Git & diff frontend
 
 sudo choco install -y smartgit
-
+sudo choco install -y winmerge
 
 # Java 11 SDK
 
