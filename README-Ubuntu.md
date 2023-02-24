@@ -158,7 +158,7 @@ sudo snap install postman
 # DevOps tools / Cloud Development
 
 
-# Terraform
+## Terraform
 
 ```
 sudo apt update && sudo apt install gpg
@@ -175,14 +175,16 @@ sudo apt install terraform
 Source [Haschicorp Official Packaging guide](https://www.hashicorp.com/official-packaging-guide)
 
 
+## Kubernetes
 ```
-# Kubernetes
 
 sudo snap install kubernetes
 sudo snap install helm
+```
 
-# AWS
+## AWS CLI
 
+```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
   && unzip awscliv2.zip \
   && sudo ./aws/install \
