@@ -176,8 +176,8 @@ Source [Haschicorp Official Packaging guide](https://www.hashicorp.com/official-
 
 
 ## Kubernetes
-```
 
+```
 sudo snap install kubernetes
 sudo snap install helm
 ```
@@ -212,6 +212,5 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-org.gpg ] htt
 
 sudo apt update
 sudo apt install mongodb-org-tools
-
 ```
 [See MongoDB docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
