@@ -208,5 +208,8 @@ wget -O- https://www.mongodb.org/static/pgp/server-6.0.asc | gpg --dearmor | sud
 
 echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-org.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
 
+sudo apt update
+sudo apt install mongodb-org-tools
+
 ```
 [See MongoDB docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
