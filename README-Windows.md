@@ -8,7 +8,7 @@ https://winaero.com/desktop-shortcut-store-app-windows-10/
 
 https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 
-Download and double-click: [Make Windows Use UTC Time.reg](Make%20Windows%20Use%20UTC%20Time.reg)
+Download and double-click: [Make Windows Use UTC Time.reg](win/Make%20Windows%20Use%20UTC%20Time.reg)
 
 ## Windows Subsystem Layer (required by Docker)
 
