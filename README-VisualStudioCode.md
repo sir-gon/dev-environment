@@ -4,7 +4,6 @@
 
 # Editor visual sugar
 
-code --install-extension 2gua.rainbow-brackets
 code --install-extension johnpapa.vscode-peacock
 
 # DevOps / Docker / Terraform / Kubernetes
@@ -12,12 +11,6 @@ code --install-extension johnpapa.vscode-peacock
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
 code --install-extension hashicorp.terraform
-
-# Code styling
-
-code --install-extension EditorConfig.EditorConfig
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension esbenp.prettier-vscode
 
 # Git
 code --install-extension donjayamanne.githistory
@@ -31,6 +24,13 @@ code --install-extension mikestead.dotenv
 
 code --install-extension golang.go
 code --install-extension ms-python.python
+
+# Code styling / Lint / Test / Coverage
+
+code --install-extension EditorConfig.EditorConfig
+code --install-extension esbenp.prettier-vscode
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension ryanluker.vscode-coverage-gutters
 
 # Markdown
 code --install-extension yzane.markdown-pdf
