@@ -2,34 +2,34 @@
 
 ## Create Desktop Shortcut for Store app in Windows 10
 
-https://winaero.com/desktop-shortcut-store-app-windows-10/
+<https://winaero.com/desktop-shortcut-store-app-windows-10/>
 
 ## Adjust time to use UTC from internal clock
 
-https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+<https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/>
 
 Download and double-click: [Make Windows Use UTC Time.reg](win/Make%20Windows%20Use%20UTC%20Time.reg)
 
 ## Windows Subsystem Layer (required by Docker)
 
-https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package
+<https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package>
 
 ## Hot Corners
 
-https://github.com/vhanla/winxcorners
+<https://github.com/vhanla/winxcorners>
 
 # Scoop package manager
 
-From: https://get.scoop.sh
+From: <https://get.scoop.sh>
 
 ```
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
 # or shorter
 iwr -useb get.scoop.sh | iex
-``` 
+```
 
-## Install Basic CLI tools for Windows 
+## Install Basic CLI tools for Windows
 
 ```
 scoop bucket add extras
@@ -46,22 +46,23 @@ sudo scoop install --global bind extras/vcredist2022
 ```
 
 Rsync
-https://githubmemory.com/repo/AStupidBear/scoop-bear
+<https://githubmemory.com/repo/AStupidBear/scoop-bear>
+
 ```
 scoop bucket add bear https://github.com/AStupidBear/scoop-bear
 sudo scoop install --global cwrsync
 ```
 
 ## Nerd Fonts
-https://www.nerdfonts.com/
+<https://www.nerdfonts.com/>
+
 ```
 scoop bucket add nerd-fonts
 sudo scoop install --global FiraCode-NF-Mono FiraCode-NF Firacode
 ```
 
-
 ## Oh-my-Posh
-https://ohmyposh.dev/docs/windows
+<https://ohmyposh.dev/docs/windows>
 
 ```
 scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
@@ -70,7 +71,6 @@ oh-my-posh --init --shell pwsh --config ~/.mytheme.omp.json | Invoke-Expression
 
 . $PROFILE
 ```
-
 
 ## Programming Languages & Frameworks
 
@@ -99,11 +99,9 @@ sudo scoop install --global helm kubectl minikube
 sudo scoop install --global rambox
 ```
 
-
 # Install Chocolatey
 
-https://chocolatey.org/install
-
+<https://chocolatey.org/install>
 
 ## Install Basic Windows Applications
 
@@ -123,8 +121,8 @@ sudo choco install -y dropbox google-drive-file-stream
 sudo choco install -y --ignore-checksums resilio-sync-home
 
 ```
-## Gamming (because is important)
 
+## Gamming (because is important)
 
 ```
 sudo choco install -y epicgameslauncher steam-client
@@ -187,7 +185,6 @@ sudo scoop install --global ctop
 sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 ```
 
-
 ****
 
 ## Upgrade all applications
@@ -206,7 +203,7 @@ choco upgrade all -y --ignore-checksums; C:\ProgramData\chocolatey\bin\choco-cle
 
 # Windows Subsystem for Linux (WSL)
 
-## Install Alpine linux subsystem packages 
+## Install Alpine linux subsystem packages
 
 ```
 apk --update add bind-tools curl git graphviz htop nmap pv openssh-client zsh vim
@@ -215,7 +212,7 @@ chsh -s $(which zsh)
 
 Then in a new terminal running zsh, [Install OMZ](README-Ubuntu.md#terminal-omz)
 
-## Install Ubuntu linux subsystem packages 
+## Install Ubuntu linux subsystem packages
 
 ```
 sudo apt update
@@ -227,13 +224,13 @@ chsh -s $(which zsh)
 
 Then in a new terminal running zsh, [Install OMZ](README-Ubuntu.md#terminal-omz)
 
-## Tips Ubuntu WSL:
+## Tips Ubuntu WSL
 
 [pbcopy in Ubuntu WSL](https://lloydrochester.com/post/unix/wsl-pbcopy-pbpaste/)
 
-## Install Docker client in Ubuntu linux subsystem packages 
+## Install Docker client in Ubuntu linux subsystem packages
 
-Is (now) a configuration of Docker Desktop. 
+Is (now) a configuration of Docker Desktop.
 Enable integration with WSL.
 
 # Visual Studio Code (extensions)
@@ -243,4 +240,3 @@ Enable integration with WSL.
 # NodeJS development
 
 [See NodeJS Development](README-NodeJS.md)
-

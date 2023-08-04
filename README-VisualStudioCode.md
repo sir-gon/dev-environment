@@ -1,6 +1,6 @@
 # Visual Studio Code (extensions)
 
-```
+```sh
 
 # Editor visual sugar
 
@@ -36,7 +36,7 @@ code --install-extension ryanluker.vscode-coverage-gutters
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
 
-# Graphviz / dot editor 
+# Graphviz / dot editor
 code --install-extension efanzh.graphviz-preview
 code --install-extension stephanvs.dot
 

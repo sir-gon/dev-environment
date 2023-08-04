@@ -9,7 +9,7 @@ chsh -s $(which zsh)
 
 ## Terminal OMZ
 
-https://ohmyz.sh/#install
+<https://ohmyz.sh/#install>
 
 Then in a new terminal with zsh shell running:
 
@@ -21,7 +21,7 @@ omz  theme set gnzh
 
 # Install typography for coding
 
-https://github.com/tonsky/FiraCode/
+<https://github.com/tonsky/FiraCode/>
 
 ```
 sudo apt install -y fonts-firacode 
@@ -50,10 +50,9 @@ curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o t
 curl https://downloads.mongodb.com/compass/mongodb-compass_1.26.1_amd64.deb -o mongodb-compass_1.26.1_amd64.deb \
   && sudo dpkg -i mongodb-compass_1.26.1_amd64.deb \
   && rm mongodb-compass_1.26.1_amd64.deb
-``` 
+```
 
 # Install Basic Ubuntu GUI Applications
-
 
 ```
 sudo apt install -y guake vim-gtk3
@@ -133,30 +132,26 @@ sudo snap install postman
 
 # GNOME Shell
 
-- https://extensions.gnome.org/extension/2872/activities-icons/
-- https://extensions.gnome.org/extension/6/applications-menu/
-- https://extensions.gnome.org/extension/517/caffeine/
-- ~~https://extensions.gnome.org/extension/1160/dash-to-panel/~~
-- https://extensions.gnome.org/extension/1465/desktop-icons/
-- https://extensions.gnome.org/extension/1065/docker-status/
-- https://extensions.gnome.org/extension/744/hide-activities-button/
-- https://extensions.gnome.org/extension/750/openweather/
-- https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-- https://extensions.gnome.org/extension/19/user-themes/
-
+* <https://extensions.gnome.org/extension/2872/activities-icons/>
+* <https://extensions.gnome.org/extension/6/applications-menu/>
+* <https://extensions.gnome.org/extension/517/caffeine/>
+* ~~<https://extensions.gnome.org/extension/1160/dash-to-panel/>~~
+* <https://extensions.gnome.org/extension/1465/desktop-icons/>
+* <https://extensions.gnome.org/extension/1065/docker-status/>
+* <https://extensions.gnome.org/extension/744/hide-activities-button/>
+* <https://extensions.gnome.org/extension/750/openweather/>
+* <https://extensions.gnome.org/extension/906/sound-output-device-chooser/>
+* <https://extensions.gnome.org/extension/19/user-themes/>
 
 # NodeJS development
 
 [See NodeJS Developmen](README-NodeJS)
 
-
 # PHP development
 
 [See PHP Developmen](README-PHP)
 
-
 # DevOps tools / Cloud Development
-
 
 ## Terraform
 
@@ -173,7 +168,6 @@ sudo apt install terraform
 ```
 
 Source [Haschicorp Official Packaging guide](https://www.hashicorp.com/official-packaging-guide)
-
 
 ## Kubernetes
 
@@ -201,6 +195,7 @@ echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.clou
 sudo apt update
 sudo apt install google-cloud-cli
 ```
+
 [See GCP docs](https://cloud.google.com/sdk/docs/install#deb)
 
 ## MongoDB cli tools
@@ -213,4 +208,5 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-org.gpg ] htt
 sudo apt update
 sudo apt install mongodb-org-tools
 ```
+
 [See MongoDB docs](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)

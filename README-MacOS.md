@@ -1,18 +1,23 @@
-# Install Basic cli stack for MacOS
-```
+# MacOS quick development station
+
+## Install Basic cli stack for MacOS
+
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install coreutils curl dnsmasq fish htop-osx pv tldr vim watch wget
 ```
-# Install Ext4 (linux) support
 
-```
+## Install Ext4 (linux) support
+
+```bash
 brew cask install osxfuse
 brew install ext4fuse
 ```
 
-# Install Basic MacOS Applications
-```
+## Install Basic MacOS Applications
+
+```bash
 brew install --cask android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
 
 brew install --cask microsoft-office microsoft-teams
@@ -21,9 +26,9 @@ brew install --cask zoom
 
 ```
 
-# Gamming (because is important)
+## Gamming (because is important)
 
-```
+```bash
 brew install --cask openemu
 
 brew install --cask discord twitch
@@ -32,16 +37,15 @@ brew install --cask battle-net epic-games steam
 
 ```
 
+## Install Development Tools
 
-# Install Development Tools
-
-```
+```bash
 brew install --cask smartgit
 
-# Favorite IDE
+## Favorite IDE
 
 brew install --cask macvim visual-studio-code
-brew install --cask poedit 
+brew install --cask poedit
 
 # Languages & Runtimes
 
@@ -54,21 +58,21 @@ brew install --cask docker
 brew install --cask virtualbox virtualbox-extension-pack
 brew install minikube
 
-## Autocomplete for container tools:
+### Autocomplete for container tools:
 
 ### Kubernetes
 
 echo 'alias k=kubectl' >>~/.zshrc
 echo 'complete -F __start_kubectl k' >>~/.zshrc
 
-### Minikube:
-### Due a bug in autocomplete script for zsh
+#### Minikube:
+#### Due a bug in autocomplete script for zsh
 ### Source: https://github.com/kubernetes/minikube/issues/11348#issuecomment-926130349
 
 sed -i "" 's/aliashash\["\([a-z]*\)"\]/aliashash[\1]/g' $(realpath /usr/local/share/zsh/site-functions/_minikube)
 
 
-# DATABASE
+## DATABASE
 
 brew install --cask dbeaver-community mongodb-compass
 
@@ -76,50 +80,50 @@ brew install --cask dbeaver-community mongodb-compass
 
 brew install --cask insomnia postman soapui
 
-# Networking
+## Networking
 
 brew install --cask wireshark
 
-# Alternative browsers
+## Alternative browsers
 
 brew install --cask opera vivaldi
 
-# FTP / SFTP
+## FTP / SFTP
 
 brew install --cask cyberduck
 
-# CI / CD
+## CI / CD
 
-brew install --cask fastlane  
+brew install --cask fastlane
 ```
 
+## Install typography for coding
 
-# Install typography for coding
+<https://github.com/tonsky/FiraCode/>
 
-https://github.com/tonsky/FiraCode/
-
-```
+```bash
 brew install --cask homebrew/cask-fonts/font-droidsansmono-nerd-font homebrew/cask-fonts/font-droidsansmono-nerd-font-mono homebrew/cask-fonts/font-hack-nerd-font homebrew/cask-fonts/font-hack-nerd-font-mono
 ```
 
-## For upgrading brew cask applications
+### For upgrading brew cask applications
 
-### Install brew-cask-upgrade
+#### Install brew-cask-upgrade
 
-https://github.com/buo/homebrew-cask-upgrade
+<https://github.com/buo/homebrew-cask-upgrade>
 
-```
+```bash
 brew tap buo/cask-upgrade
 ```
 
-### Upgrade brew cask applications
+#### Upgrade brew cask applications
 
-```
+```bash
 brew cu -a -y
 ```
 
-# Terminal
-```
+## Terminal
+
+```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 chsh -s $(which zsh)
@@ -129,39 +133,39 @@ zsh
 omz  theme use gnzh
 ```
 
-# Proxy stuff
-```
+## Proxy stuff
+
+```bash
 brew install tor connect
 ```
 
-# Visual Studio Code (extensions)
+## Visual Studio Code (extensions)
 
 [See Visual Studio Code extensions](README-VisualStudioCode.md)
 
-# NodeJS development
+## NodeJS development
 
 [See NodeJS Development](README-NodeJS.md)
 
+### React Native development
 
-## React Native development
-
-```
+```bash
 brew install node watchman
 
 npm install -g react-native-cli
 ```
 
-# PHP Development
+## PHP Development
 
-## COMPOSER
+### COMPOSER
 
+```bash
+wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php --
 ```
-wget https://raw.githubusercontent.com/composer/getcomposer.org/1b137f8bf6db3e79a38a5bc45324414a6b1f9df2/web/installer -O - -q | php -- 
-```
 
-## Drupal
+### Drupal
 
-```
+```bash
 # DRUSH
 
 php -r "readfile('https://s3.amazonaws.com/files.drush.org/drush.phar');" > drush
@@ -169,29 +173,29 @@ php drush core-status
 chmod +x drush
 sudo mv drush /usr/local/bin
 
-# Optional. Enrich the bash startup file with completion and aliases.
+## Optional. Enrich the bash startup file with completion and aliases.
 drush init
 ```
 
-## Wordpress
+### Wordpress
 
-```
+```bash
 # WORDPRESS CLI
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-# ANDROID Development 
+## ANDROID Development
 
-```
+```bash
 brew cask install caskroom/versions/java8;
 brew cask install android-studio android-sdk android-ndk
 
-# accept all licences
+## accept all licences
 yes | sdkmanager --licenses
 ```
 
-# Additional recomendations
+## Additional recomendations
 
 [How to Set Up Your Mac for Web Development in 2021 by Vinicius De Antoni](https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462#9018)
