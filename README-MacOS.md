@@ -43,6 +43,7 @@ brew install --cask battle-net epic-games steam
 
 ```bash
 brew install --cask smartgit
+brew install --cask sourcetree
 
 ## Favorite IDE
 
