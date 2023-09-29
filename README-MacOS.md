@@ -57,8 +57,14 @@ brew install node
 
 # Virtualization / Containerization
 
+## Kubernetes
 brew install minikube
+
+## Docker
 brew install --cask docker
+brew install ctop
+
+## Virtualbox
 brew install --cask virtualbox
 
 
