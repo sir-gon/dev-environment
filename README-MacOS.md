@@ -58,7 +58,7 @@ brew install node
 # Virtualization / Containerization
 
 ## Kubernetes
-brew install minikube
+brew install helm minikube
 
 ## Docker
 brew install --cask docker
@@ -105,6 +105,10 @@ brew install --cask cyberduck
 ## CI / CD
 
 brew install --cask fastlane
+
+## Cloud / Infrastructure
+
+brew install terraform
 ```
 
 ## Install typography for coding
