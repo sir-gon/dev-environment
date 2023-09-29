@@ -18,7 +18,9 @@ brew install ext4fuse
 ## Install Basic MacOS Applications
 
 ```bash
-brew install --cask android-file-transfer bettertouchtool calibre dropbox firefox flux google-chrome google-drive-file-stream iterm2 libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
+brew install --cask bettertouchtool flux grandperspective iterm2
+
+brew install --cask android-file-transfer calibre dropbox google-drive-file-stream libreoffice libreoffice-language-pack rambox resilio-sync vuze teamviewer vlc
 
 brew install --cask microsoft-office microsoft-teams
 
@@ -54,9 +56,10 @@ brew install node
 
 # Virtualization / Containerization
 
-brew install --cask docker
-brew install --cask virtualbox virtualbox-extension-pack
 brew install minikube
+brew install --cask docker
+brew install --cask virtualbox
+
 
 ### Autocomplete for container tools:
 
@@ -86,7 +89,7 @@ brew install --cask wireshark
 
 ## Alternative browsers
 
-brew install --cask opera vivaldi
+brew install --cask firefox google-chrome opera vivaldi
 
 ## FTP / SFTP
 
@@ -99,10 +102,11 @@ brew install --cask fastlane
 
 ## Install typography for coding
 
-<https://github.com/tonsky/FiraCode/>
+<https://gist.github.com/davidteren/898f2dcccd42d9f8680ec69a3a5d350e>
 
 ```bash
-brew install --cask homebrew/cask-fonts/font-droidsansmono-nerd-font homebrew/cask-fonts/font-droidsansmono-nerd-font-mono homebrew/cask-fonts/font-hack-nerd-font homebrew/cask-fonts/font-hack-nerd-font-mono
+brew tap homebrew/cask-fonts
+brew search '/font-.*-nerd-font/' | awk '{ print $1 }' | xargs -I{} brew install --cask {} || true
 ```
 
 ### For upgrading brew cask applications
