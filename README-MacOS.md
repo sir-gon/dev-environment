@@ -52,7 +52,9 @@ brew install --cask poedit
 
 # Languages & Runtimes
 
+brew install go
 brew install node
+brew install python
 
 
 # Virtualization / Containerization
