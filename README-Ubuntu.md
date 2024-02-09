@@ -46,10 +46,15 @@ curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o t
   && sudo dpkg -i teamviewer_amd64.deb \
   && rm teamviewer_amd64.deb
 
+# MONGODB-MONGOSH
+curl https://downloads.mongodb.com/compass/mongodb-mongosh_2.1.4_amd64.deb -o mongodb-mongosh_2.1.4_amd64.deb \
+  && sudo dpkg -i mongodb-mongosh_2.1.4_amd64.deb \
+  && rm mongodb-mongosh_2.1.4_amd64.deb
+
 # MONGODB-COMPASS
-curl https://downloads.mongodb.com/compass/mongodb-mongosh_2.1.4_amd64.deb -o mongodb-compass_2.1.4_amd64.deb \
-  && sudo dpkg -i mongodb-compass_2.1.4_amd64.deb \
-  && rm mongodb-compass_2.1.4_amd64.deb
+curl https://downloads.mongodb.com/compass/mongodb-compass_1.42.0_amd64.deb -o mongodb-compass_1.42.0_amd64.deb \
+  && sudo dpkg -i mongodb-compass_1.42.0_amd64.deb \
+  && rm mongodb-compass_1.42.0_amd64.deb
 ```
 
 # Install Basic Ubuntu GUI Applications
