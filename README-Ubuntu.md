@@ -37,9 +37,9 @@ Or a improvised automation:
 
 ```
 # SMARTGIT
-curl https://www.syntevo.com/downloads/smartgit/smartgit-20_2_4.deb -o smartgit-20_2_4.deb \
-  && sudo dpkg -i smartgit-20_2_4.deb \
-  && rm smartgit-20_2_4.deb
+curl https://www.syntevo.com/downloads/smartgit/smartgit-23_1_1.deb -o smartgit-23_1_1.deb \
+  && sudo dpkg -i smartgit-23_1_1.deb \
+  && rm smartgit-23_1_1.deb
 
 # TEAMVIEWER
 curl -L https://download.teamviewer.com/download/linux/teamviewer_amd64.deb -o teamviewer_amd64.deb \
