@@ -177,8 +177,13 @@ Source [Haschicorp Official Packaging guide](https://www.hashicorp.com/official-
 ## Kubernetes
 
 ```
-sudo snap install kubernetes
-sudo snap install helm
+# Kubernetes control
+sudo snap install kubectl
+sudo snap install --classic helm
+
+# Minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
 ```
 
 ## AWS CLI
