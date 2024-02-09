@@ -77,7 +77,7 @@ sudo apt install -y microsoft-edge-dev
 # SNAP apps
 sudo snap install rambox
 sudo snap install skype --classic
-sudo snap install teams
+sudo snap install teams-for-linux
 ```
 
 # Install Development Applications
