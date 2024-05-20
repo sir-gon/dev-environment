@@ -98,7 +98,7 @@ brew install --cask wireshark
 
 ## Alternative browsers
 
-brew install --cask firefox google-chrome opera vivaldi
+brew install --cask brave-browser firefox google-chrome opera vivaldi
 
 ## FTP / SFTP
 
