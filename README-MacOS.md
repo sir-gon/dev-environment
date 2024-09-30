@@ -58,6 +58,8 @@ brew install go
 brew install node
 brew install python
 brew install dotnet
+
+brew install cmake
 brew install vcpkg
 
 # Virtualization / Containerization
