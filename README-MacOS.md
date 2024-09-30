@@ -60,6 +60,7 @@ brew install python
 brew install dotnet
 
 brew install cmake
+brew install pkg-config
 brew install vcpkg
 
 # Virtualization / Containerization
