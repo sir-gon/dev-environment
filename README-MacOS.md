@@ -50,12 +50,15 @@ brew install --cask sourcetree
 brew install --cask macvim visual-studio-code
 brew install --cask poedit
 
+# 
+
 # Languages & Runtimes
 
 brew install go
 brew install node
 brew install python
-
+brew install dotnet
+brew install vcpkg
 
 # Virtualization / Containerization
 
