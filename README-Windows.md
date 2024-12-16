@@ -188,8 +188,8 @@ sudo choco install -y insomnia-rest-api-client insomnia-designer postman
 Mingw C/C++ Development
 
 ```powershell
-git clone git@github.com:sir-gon/algorithm-exercises-cpp.git ~\vcpkg
-~\vcpkg\bootstrap-vcpkg.bat
+git clone https://github.com/microsoft/vcpkg.git \vcpkg
+\vcpkg\bootstrap-vcpkg.bat
 
 
 choco install mingw
