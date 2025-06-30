@@ -25,6 +25,11 @@ code --install-extension mikestead.dotenv
 code --install-extension golang.go
 code --install-extension ms-python.python
 
+## Enable test explorer for java gradle projects
+
+code --install-extension  vscjava.vscode-java-pack 
+
+
 # Code styling / Lint / Test / Coverage
 
 code --install-extension EditorConfig.EditorConfig
