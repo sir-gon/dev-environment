@@ -219,6 +219,36 @@ brew cask install android-studio android-sdk android-ndk
 yes | sdkmanager --licenses
 ```
 
+## Mac App Store apps
+
+```text
+ 420629463  Add Folder Icons    (3.1.1)
+ 937984704  Amphetamine         (5.3.2)
+ 490461369  Bandwidth+          (1.29)
+1499080593  BrowserFairy        (2.1)
+1500855883  CapCut              (8.2.0)
+1090488118  Gemini 2            (2.9.11)
+ 408981434  iMovie              (10.4.4)
+ 886547068  Just Color Picker   (210616.1508.23)
+ 409183694  Keynote             (14.5)
+ 472226235  LanScan             (8.2.5)
+ 414030210  LimeChat            (2.47)
+ 539883307  LINE                (26.0.2)
+1480068668  Messenger           (520.0.0)
+ 409203825  Numbers             (14.5)
+ 823766827  OneDrive            (26.002.0105)
+ 409201541  Pages               (14.5)
+ 897118787  Shazam              (2.11.0)
+ 747648890  Telegram            (12.5)
+ 425424353  The Unarchiver      (4.3.9)
+ 929285034  Tumblr              (1.0.1)
+6745342698  uBlock Origin Lite  (2026.308.1810)
+ 310633997  WhatsApp            (26.9.75)
+ 422302958  WiFi Analyzer       (1.0.2)
+1295203466  Windows App         (11.3.3)
+ 497799835  Xcode               (26.3)
+```
+
 ## Additional recomendations
 
 [How to Set Up Your Mac for Web Development in 2021 by Vinicius De Antoni](https://betterprogramming.pub/how-to-set-up-your-macbook-for-web-development-in-2021-a7a1f53f6462#9018)
