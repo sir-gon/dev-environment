@@ -5,6 +5,7 @@
 # Editor visual sugar
 
 code --install-extension johnpapa.vscode-peacock
+code --install-extension kratiuk.commentlinking
 
 # DevOps / Docker / Terraform / Kubernetes
 
