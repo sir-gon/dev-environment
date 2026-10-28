@@ -12,3 +12,6 @@ go clean -modcache
 
 # Homebrew caches ~/Lirabry/Caches/Homebrew
 rm -rf $(brew --cache)
+
+# Java Maven caches
+rm -fr ~/.m2/repository
