@@ -9,3 +9,6 @@ nuget locals all -clear
 
 # Go (golang) go/pkg cache
 go clean -modcache
+
+# Homebrew caches ~/Lirabry/Caches/Homebrew
+rm -rf $(brew --cache)
