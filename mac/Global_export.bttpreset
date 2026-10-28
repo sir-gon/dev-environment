@@ -1,0 +1,224 @@
+[
+  {
+    "BTTAppBundleIdentifier" : "BT.G",
+    "BTTAppName" : "Global",
+    "BTTAppAutoInvertIcon" : 1,
+    "BTTAppSpecificSettings" : {
+      "BTTDisableGlobalTriggers" : false
+    },
+    "BTTTriggers" : [
+      {
+        "BTTLastUpdatedAt" : 1713363843.5392032,
+        "BTTTriggerType" : 653,
+        "BTTTriggerTypeDescriptionReadOnly" : "Botón de Control Strip",
+        "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+        "BTTUUID" : "1C74A71D-203A-4BAB-AAD6-80891E562C26",
+        "BTTOrder" : 0,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTriggerConfig" : {
+          "BTTTouchBarButtonColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+          "BTTTouchBarItemIconWidth" : 22,
+          "BTTTouchBarButtonTextAlignment" : 0,
+          "BTTTouchBarButtonFontSize" : 15,
+          "BTTTouchBarAlternateBackgroundColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+          "BTTTouchBarItemPlacement" : 0,
+          "BTTTouchBarAlwaysShowButton" : false,
+          "BTTTBWidgetWidth" : 400,
+          "BTTTouchBarIconTextOffset" : 5,
+          "BTTTouchBarButtonWidth" : 100,
+          "BTTTouchBarOnlyShowIcon" : false,
+          "BTTTouchBarFreeSpaceAfterButton" : 5,
+          "BTTTouchBarItemIconHeight" : 22,
+          "BTTTouchBarItemPadding" : 0
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1665769202.7849951,
+        "BTTTriggerType" : 741,
+        "BTTTriggerTypeDescriptionReadOnly" : "Widget de elementos de barra de menús estándar",
+        "BTTTriggerClass" : "BTTTriggerTypeNotchBar",
+        "BTTUUID" : "38F5BEB9-14EE-43C1-822B-5FB43B30DEC6",
+        "BTTNotes" : "This shows the standard menubar elements like File, Edit...",
+        "BTTEnabled2" : 0,
+        "BTTOrder" : 0,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTriggerConfig" : {
+          "BTTTouchBarButtonCornerRadius" : 5,
+          "BTTTouchBarFreeSpaceAfterButton" : 0,
+          "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+          "BTTTouchBarApplyCornerRadiusTo" : 0,
+          "BTTTouchBarItemPlacement" : 1,
+          "BTTTouchBarIconInvert" : false,
+          "BTTTouchBarAlwaysShowButton" : false,
+          "BTTTouchBarButtonHoverColor" : "248.880000, 146.115000, 128.010000, 181.050000",
+          "BTTNotchBarVisibilityStandardScreen" : 2,
+          "BTTTouchBarButtonHeight" : 15,
+          "BTTTouchBarButtonWidth" : 100,
+          "BTTTouchBarItemIconHeight" : 15,
+          "BTTTouchBarButtonTextAlignment" : 0,
+          "BTTTouchBarAlternateBackgroundColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+          "BTTTBWidgetWidth" : 400,
+          "BTTTouchBarBorderColor" : "0.000000, 0.000000, 0.000000, 51.000000",
+          "BTTTouchBarFreeSpaceBeforeButton" : 0,
+          "BTTTouchBarItemIconWidth" : 15,
+          "BTTTouchBarButtonFontSize" : 12,
+          "BTTTouchBarIconTextOffset" : 5,
+          "BTTTouchBarOnlyShowIcon" : false,
+          "BTTNotchBarVisibilityNotchScreen" : 2,
+          "BTTTouchBarItemPadding" : 0
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1774445834.970325,
+        "BTTTriggerType" : 23,
+        "BTTTriggerTypeDescriptionReadOnly" : "Clic medio con 1 dedo",
+        "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+        "BTTUUID" : "DB129F6B-1301-45A9-9564-0EFBEB7D7F3F",
+        "BTTPredefinedActionType" : 1,
+        "BTTPredefinedActionName" : "Clic medio (At Current Mouse Position)",
+        "BTTOrder" : 0,
+        "BTTTriggerConfig" : {
+          "BTTNoTouchTimeout" : 0
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1665769200.668339,
+        "BTTTriggerType" : 742,
+        "BTTTriggerTypeDescriptionReadOnly" : "Widget de mini elementos de la barra de menús",
+        "BTTTriggerClass" : "BTTTriggerTypeNotchBar",
+        "BTTUUID" : "8129EA88-D285-42B9-82CB-165EB414FC98",
+        "BTTOrder" : 1,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTriggerConfig" : {
+          "BTTNotchBarVisibilityNotchScreen" : 1,
+          "BTTTouchBarItemPadding" : 0,
+          "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+          "BTTTouchBarApplyCornerRadiusTo" : 0,
+          "BTTTouchBarItemPlacement" : 4,
+          "BTTTouchBarIconInvert" : false,
+          "BTTTouchBarAlwaysShowButton" : false,
+          "BTTTouchBarButtonHoverColor" : "248.880000, 146.115000, 128.010000, 181.050000",
+          "BTTNotchBarVisibilityStandardScreen" : -1,
+          "BTTTouchBarButtonHeight" : 15,
+          "BTTTouchBarButtonWidth" : 100,
+          "BTTTouchBarItemIconHeight" : 15,
+          "BTTTouchBarButtonTextAlignment" : 0,
+          "BTTTouchBarAlternateBackgroundColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+          "BTTTBWidgetWidth" : 400,
+          "BTTTouchBarBorderColor" : "0.000000, 0.000000, 0.000000, 51.000000",
+          "BTTTouchBarFreeSpaceBeforeButton" : 0,
+          "BTTTouchBarItemIconWidth" : 15,
+          "BTTTouchBarButtonFontSize" : 12,
+          "BTTTouchBarIconTextOffset" : 5,
+          "BTTTouchBarOnlyShowIcon" : false,
+          "BTTTouchBarButtonCornerRadius" : 5,
+          "BTTTouchBarFreeSpaceAfterButton" : 0
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1674501272.8189368,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchBar",
+        "BTTUUID" : "AA9DFA14-1D83-490D-A5B5-6E87A29EB3B8",
+        "BTTOrder" : 1,
+        "BTTMergeIntoTouchBarGroups" : 0
+      },
+      {
+        "BTTLastUpdatedAt" : 1774445834.970289,
+        "BTTTriggerType" : 21,
+        "BTTTriggerTypeDescriptionReadOnly" : "Clic con 3 dedos",
+        "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+        "BTTUUID" : "ECE68FD1-E4CB-4492-AD5C-BA49264D39A3",
+        "BTTPredefinedActionType" : 1,
+        "BTTPredefinedActionName" : "Clic medio (At Current Mouse Position)",
+        "BTTOrder" : 1
+      },
+      {
+        "BTTLastUpdatedAt" : 1665769247.5124691,
+        "BTTTriggerType" : 699,
+        "BTTTriggerTypeDescriptionReadOnly" : "Widget de elementos de estado de Notch Bar",
+        "BTTTriggerClass" : "BTTTriggerTypeNotchBar",
+        "BTTUUID" : "92268030-49E0-4547-9DBD-55B77AAABF62",
+        "BTTNotesInsteadOfDescription" : 1,
+        "BTTNotes" : "Mini version of the menubar status icons.",
+        "BTTEnabled2" : 0,
+        "BTTOrder" : 2,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTriggerConfig" : {
+          "BTTTouchBarButtonCornerRadius" : 5,
+          "BTTTouchBarFreeSpaceAfterButton" : 0,
+          "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+          "BTTTouchBarApplyCornerRadiusTo" : 0,
+          "BTTTouchBarItemPlacement" : 5,
+          "BTTTouchBarIconInvert" : false,
+          "BTTTouchBarAlwaysShowButton" : false,
+          "BTTTouchBarButtonHoverColor" : "248.880000, 146.115000, 128.010000, 181.050000",
+          "BTTNotchBarVisibilityStandardScreen" : -1,
+          "BTTTouchBarButtonHeight" : 15,
+          "BTTTouchBarButtonWidth" : 100,
+          "BTTTouchBarScriptUpdateInterval" : 0,
+          "BTTTouchBarItemIconHeight" : 15,
+          "BTTTouchBarButtonTextAlignment" : 0,
+          "BTTTouchBarAlternateBackgroundColor" : "75.323769, 75.323769, 75.323769, 255.000000",
+          "BTTTBWidgetWidth" : 400,
+          "BTTTouchBarBorderColor" : "0.000000, 0.000000, 0.000000, 51.000000",
+          "BTTNotchBarWidgetVisibleStatusItems" : {
+            "showAll" : 0
+          },
+          "BTTTouchBarFreeSpaceBeforeButton" : 0,
+          "BTTTouchBarItemIconWidth" : 15,
+          "BTTTouchBarButtonFontSize" : 12,
+          "BTTTouchBarIconTextOffset" : 5,
+          "BTTNotchBarVisibilityNotchScreen" : 1,
+          "BTTTouchBarOnlyShowIcon" : false,
+          "BTTTouchBarItemPadding" : 0
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1665769235.379838,
+        "BTTTriggerType" : 743,
+        "BTTTriggerTypeDescriptionReadOnly" : "Imitar iconos de estado del sistema",
+        "BTTTriggerClass" : "BTTTriggerTypeNotchBar",
+        "BTTUUID" : "54DC7803-4878-4706-9DBA-3EA8681C7B0B",
+        "BTTNotes" : "This tries to look like the original status icons",
+        "BTTEnabled2" : 0,
+        "BTTOrder" : 3,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTriggerConfig" : {
+          "BTTNotchBarVisibilityNotchScreen" : 2,
+          "BTTNotchBarVisibilityStandardScreen" : 2,
+          "BTTTouchBarItemPlacement" : 2,
+          "BTTNotchBarWidgetVisibleStatusItems" : {
+            "showAll" : 0
+          },
+          "BTTNotchBarCSSClass" : "system-status-icons"
+        }
+      },
+      {
+        "BTTLastUpdatedAt" : 1665769235.3798029,
+        "BTTTriggerType" : 696,
+        "BTTTriggerTypeDescriptionReadOnly" : "Botón de Notch Bar",
+        "BTTTriggerTypeDescription" : "Widget Mode Test - Scroll Up\/Down to switch modes. Right click bar for more options.",
+        "BTTTriggerClass" : "BTTTriggerTypeNotchBar",
+        "BTTUUID" : "C0E2C6B9-5994-40BA-98FE-583CA42DC8A7",
+        "BTTPredefinedActionType" : 5,
+        "BTTPredefinedActionName" : "Mission Control",
+        "BTTNotes" : "You can delete this button, it's just an example.",
+        "BTTEnabled2" : 0,
+        "BTTOrder" : 100,
+        "BTTMergeIntoTouchBarGroups" : 0,
+        "BTTTouchBarButtonName" : "Widget Mode Test - Scroll Up\/Down to switch modes. Right click bar for more options.",
+        "BTTTriggerConfig" : {
+          "BTTNotchBarVisibilityNotchScreen" : 1,
+          "BTTTouchBarItemSFSymbolDefaultIcon" : "scribble.variable",
+          "BTTTouchBarItemPlacement" : 1,
+          "BTTTouchBarButtonName" : "Example Button (scroll up\/down to switch modes)",
+          "BTTTouchBarItemIconType" : 2,
+          "BTTNotchBarVisibilityStandardScreen" : 1,
+          "BTTTouchBarIconInvert" : 1,
+          "BTTTouchBarItemIconWidth" : 15,
+          "BTTTouchBarItemIconHeight" : 15
+        }
+      }
+    ]
+  }
+]
