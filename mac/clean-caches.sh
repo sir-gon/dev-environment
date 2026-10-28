@@ -15,3 +15,6 @@ rm -rf $(brew --cache)
 
 # Java Maven caches
 rm -fr ~/.m2/repository
+
+# SonarQube / SonarCloud
+rm -rf ~/.sonar/cache
